@@ -1,0 +1,153 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Ableton Live",
+  "items": [
+    {
+      "type": "app",
+      "label": "Ableton Live",
+      "appName": "Ableton Live"
+    },
+    {
+      "type": "shortcut",
+      "label": "Play / Stop",
+      "keys": {
+        "mods": [],
+        "key": "space"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Record",
+      "keys": {
+        "mods": [],
+        "key": "f9"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Session / Arrangement",
+      "keys": {
+        "mods": [],
+        "key": "tab"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Detail view",
+      "keys": {
+        "mods": [
+          "shift"
+        ],
+        "key": "tab"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Draw mode",
+      "keys": {
+        "mods": [],
+        "key": "b"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Automation",
+      "keys": {
+        "mods": [],
+        "key": "a"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Loop",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "l"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Split",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "e"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Duplicate",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "d"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Consolidate",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "j"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Group",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "g"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Quantize",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "u"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Add audio track",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "t"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Add MIDI track",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "t"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    }
+  ]
+}

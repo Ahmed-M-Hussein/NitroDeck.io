@@ -1,0 +1,233 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "DaVinci Resolve",
+  "items": [
+    {
+      "type": "app",
+      "label": "DaVinci Resolve",
+      "appName": "DaVinci Resolve"
+    },
+    {
+      "type": "shortcut",
+      "label": "Play / Pause",
+      "keys": {
+        "mods": [],
+        "key": "space"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Playback",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Play backward",
+          "keys": {
+            "mods": [],
+            "key": "j"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Stop",
+          "keys": {
+            "mods": [],
+            "key": "k"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Play forward",
+          "keys": {
+            "mods": [],
+            "key": "l"
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "label": "Pages",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Media",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "2"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Cut",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "3"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Edit",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "4"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Fusion",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "5"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Color",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "6"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Fairlight",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "7"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Deliver",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "8"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Blade tool",
+      "keys": {
+        "mods": [],
+        "key": "b"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Selection tool",
+      "keys": {
+        "mods": [],
+        "key": "a"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Trim tool",
+      "keys": {
+        "mods": [],
+        "key": "t"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Split clip",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "b"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Snap",
+      "keys": {
+        "mods": [],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Mark in",
+      "keys": {
+        "mods": [],
+        "key": "i"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Mark out",
+      "keys": {
+        "mods": [],
+        "key": "o"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Add marker",
+      "keys": {
+        "mods": [],
+        "key": "m"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Fit timeline",
+      "keys": {
+        "mods": [
+          "shift"
+        ],
+        "key": "z"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Undo",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "z"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Redo",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "z"
+      }
+    }
+  ]
+}

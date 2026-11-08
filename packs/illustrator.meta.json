@@ -1,0 +1,17 @@
+{
+  "name": "Adobe Illustrator",
+  "category": "Creative",
+  "description": "Keyboard shortcuts and quick actions for Adobe Illustrator.",
+  "color": "#330000",
+  "icon": "palette",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Adobe Illustrator",
+    "Illustrator"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

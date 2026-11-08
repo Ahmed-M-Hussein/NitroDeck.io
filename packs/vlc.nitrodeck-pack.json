@@ -1,0 +1,186 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "VLC media player",
+  "items": [
+    {
+      "type": "app",
+      "label": "VLC",
+      "appName": "VLC media player"
+    },
+    {
+      "type": "shortcut",
+      "label": "Play / Pause",
+      "keys": {
+        "mods": [],
+        "key": "space"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Stop",
+      "keys": {
+        "mods": [],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next",
+      "keys": {
+        "mods": [],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous",
+      "keys": {
+        "mods": [],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Full screen",
+      "keys": {
+        "mods": [],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Mute",
+      "keys": {
+        "mods": [],
+        "key": "m"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Snapshot",
+      "keys": {
+        "mods": [
+          "shift"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Subtitle track",
+      "keys": {
+        "mods": [],
+        "key": "v"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Audio track",
+      "keys": {
+        "mods": [],
+        "key": "b"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Aspect ratio",
+      "keys": {
+        "mods": [],
+        "key": "a"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Loop",
+      "keys": {
+        "mods": [],
+        "key": "l"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Frame by frame",
+      "keys": {
+        "mods": [],
+        "key": "e"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Playlist",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "l"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Open file",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "o"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Seek backward",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "left"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Seek forward",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "right"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Slower",
+      "keys": {
+        "mods": [],
+        "key": "minus"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Faster",
+      "keys": {
+        "mods": [],
+        "key": "equal"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "VLC volume down",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "down"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "VLC volume up",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "up"
+      }
+    }
+  ]
+}

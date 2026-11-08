@@ -1,0 +1,140 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Cursor",
+  "items": [
+    {
+      "type": "app",
+      "label": "Cursor",
+      "appName": "Cursor"
+    },
+    {
+      "type": "shortcut",
+      "label": "AI chat",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "l"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Edit inline",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "k"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Agent / Composer",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "i"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Accept suggestion",
+      "keys": {
+        "mods": [],
+        "key": "tab"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Reject",
+      "keys": {
+        "mods": [],
+        "key": "escape"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Command palette",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Quick open",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Search files",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Terminal",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "grave"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Sidebar",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "b"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous editor tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "pageup"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next editor tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "pagedown"
+      }
+    }
+  ]
+}

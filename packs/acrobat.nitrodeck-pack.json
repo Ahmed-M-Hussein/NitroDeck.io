@@ -1,0 +1,141 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Adobe Acrobat",
+  "items": [
+    {
+      "type": "app",
+      "label": "Acrobat",
+      "appName": "Adobe Acrobat"
+    },
+    {
+      "type": "shortcut",
+      "label": "Open",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "o"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Print",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Find",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Go to page",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Fit page",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "0"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Actual size",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "1"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Fit width",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "2"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Rotate right",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "equal"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Rotate left",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "minus"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Full screen",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "l"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous page",
+      "keys": {
+        "mods": [],
+        "key": "pageup"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next page",
+      "keys": {
+        "mods": [],
+        "key": "pagedown"
+      }
+    }
+  ]
+}

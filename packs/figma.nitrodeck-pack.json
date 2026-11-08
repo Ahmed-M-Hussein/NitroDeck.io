@@ -1,0 +1,203 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Figma",
+  "items": [
+    {
+      "type": "app",
+      "label": "Figma",
+      "appName": "Figma"
+    },
+    {
+      "type": "group",
+      "label": "Tools",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Move",
+          "keys": {
+            "mods": [],
+            "key": "v"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Frame",
+          "keys": {
+            "mods": [],
+            "key": "f"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Rectangle",
+          "keys": {
+            "mods": [],
+            "key": "r"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Ellipse",
+          "keys": {
+            "mods": [],
+            "key": "o"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Line",
+          "keys": {
+            "mods": [],
+            "key": "l"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Pen",
+          "keys": {
+            "mods": [],
+            "key": "p"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Text",
+          "keys": {
+            "mods": [],
+            "key": "t"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Hand",
+          "keys": {
+            "mods": [],
+            "key": "h"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Comment",
+          "keys": {
+            "mods": [],
+            "key": "c"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Undo",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "z"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Duplicate",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "d"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Group",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "g"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Ungroup",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "g"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Create component",
+      "keys": {
+        "mods": [
+          "primary",
+          "alt"
+        ],
+        "key": "k"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Auto layout",
+      "keys": {
+        "mods": [
+          "shift"
+        ],
+        "key": "a"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Quick actions",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "slash"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Zoom to fit",
+      "keys": {
+        "mods": [
+          "shift"
+        ],
+        "key": "1"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Zoom to 100%",
+      "keys": {
+        "mods": [
+          "shift"
+        ],
+        "key": "0"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Rulers",
+      "keys": {
+        "mods": [
+          "shift"
+        ],
+        "key": "r"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Present",
+      "keys": {
+        "mods": [
+          "primary",
+          "alt"
+        ],
+        "key": "enter"
+      }
+    }
+  ]
+}

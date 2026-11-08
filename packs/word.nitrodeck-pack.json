@@ -1,0 +1,241 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Microsoft Word",
+  "items": [
+    {
+      "type": "app",
+      "label": "Word",
+      "appName": "Word"
+    },
+    {
+      "type": "shortcut",
+      "label": "Bold",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "b"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Italic",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "i"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Underline",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "u"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Undo",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "z"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Find",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Replace",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "h"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Print",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Format",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Align left",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "l"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Center",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "e"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Align right",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "r"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Bullets",
+          "keys": {
+            "mods": [
+              "primary",
+              "shift"
+            ],
+            "key": "l"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Heading 1",
+          "keys": {
+            "mods": [
+              "primary",
+              "alt"
+            ],
+            "key": "1"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Heading 2",
+          "keys": {
+            "mods": [
+              "primary",
+              "alt"
+            ],
+            "key": "2"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Normal text",
+          "keys": {
+            "mods": [
+              "primary",
+              "shift"
+            ],
+            "key": "n"
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "label": "Review",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Spelling",
+          "keys": {
+            "mods": [],
+            "key": "f7"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Track changes",
+          "keys": {
+            "mods": [
+              "primary",
+              "shift"
+            ],
+            "key": "e"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "New comment",
+          "keys": {
+            "mods": [
+              "primary",
+              "alt"
+            ],
+            "key": "m"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Word count",
+          "keys": {
+            "mods": [
+              "primary",
+              "shift"
+            ],
+            "key": "g"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Smaller text",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "comma"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Larger text",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "period"
+      }
+    }
+  ]
+}

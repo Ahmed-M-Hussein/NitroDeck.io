@@ -1,0 +1,107 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "ChatGPT",
+  "items": [
+    {
+      "type": "app",
+      "label": "ChatGPT",
+      "appName": "ChatGPT"
+    },
+    {
+      "type": "shortcut",
+      "label": "New chat",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "o"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Focus input",
+      "keys": {
+        "mods": [
+          "shift"
+        ],
+        "key": "escape"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Search chats",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "k"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Copy last reply",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "c"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Copy last code",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "semicolon"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Sidebar",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Custom instructions",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "i"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Shortcut list",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "slash"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Quick launcher",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "space"
+      }
+    }
+  ]
+}

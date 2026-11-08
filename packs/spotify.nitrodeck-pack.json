@@ -1,0 +1,93 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Spotify",
+  "items": [
+    {
+      "type": "app",
+      "label": "Spotify",
+      "appName": "Spotify"
+    },
+    {
+      "type": "system",
+      "label": "Play / Pause",
+      "systemAction": "play-pause"
+    },
+    {
+      "type": "system",
+      "label": "Next",
+      "systemAction": "next-track"
+    },
+    {
+      "type": "system",
+      "label": "Previous",
+      "systemAction": "previous-track"
+    },
+    {
+      "type": "shortcut",
+      "label": "Shuffle",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Repeat",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "r"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Like song",
+      "keys": {
+        "mods": [
+          "alt",
+          "shift"
+        ],
+        "key": "b"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Search",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "l"
+      }
+    },
+    {
+      "type": "system",
+      "label": "Mute",
+      "systemAction": "mute"
+    },
+    {
+      "type": "shortcut",
+      "label": "Spotify volume down",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "down"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Spotify volume up",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "up"
+      }
+    }
+  ]
+}

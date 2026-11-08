@@ -1,0 +1,17 @@
+{
+  "name": "Sublime Text",
+  "category": "Development",
+  "description": "Keyboard shortcuts and quick actions for Sublime Text.",
+  "color": "#FF9800",
+  "icon": "code",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Sublime Text",
+    "sublime_text"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

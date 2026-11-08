@@ -1,0 +1,155 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Discord",
+  "items": [
+    {
+      "type": "app",
+      "label": "Discord",
+      "appName": "Discord"
+    },
+    {
+      "type": "shortcut",
+      "label": "Mute",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "m"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Deafen",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "d"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Quick switcher",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "k"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Search",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Mark as read",
+      "keys": {
+        "mods": [],
+        "key": "escape"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Emoji picker",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "e"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Upload file",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "u"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Inbox",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "i"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Pinned",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Members",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "u"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous channel",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "up"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next channel",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "down"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous server",
+      "keys": {
+        "mods": [
+          "primary",
+          "alt"
+        ],
+        "key": "up"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next server",
+      "keys": {
+        "mods": [
+          "primary",
+          "alt"
+        ],
+        "key": "down"
+      }
+    }
+  ]
+}

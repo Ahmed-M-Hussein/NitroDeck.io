@@ -1,0 +1,227 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Android Studio",
+  "items": [
+    {
+      "type": "app",
+      "label": "Android Studio",
+      "appName": "Android Studio"
+    },
+    {
+      "type": "shortcut",
+      "label": "Find action",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "a"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Go to class",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Go to file",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Recent files",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "e"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Go to declaration",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "b"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Usages",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "f7"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Rename",
+      "keys": {
+        "mods": [
+          "shift"
+        ],
+        "key": "f6"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Reformat",
+      "keys": {
+        "mods": [
+          "primary",
+          "alt"
+        ],
+        "key": "l"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Comment line",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "slash"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Sync Gradle",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "o"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Logcat",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "6"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Terminal",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "f12"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Run and debug",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Run app",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "f10"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Debug app",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "f9"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Stop",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "f2"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Step over",
+          "keys": {
+            "mods": [],
+            "key": "f8"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Step into",
+          "keys": {
+            "mods": [],
+            "key": "f7"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Resume",
+          "keys": {
+            "mods": [],
+            "key": "f9"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Breakpoint",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "f8"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Shrink selection",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "w"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Expand selection",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "w"
+      }
+    }
+  ]
+}

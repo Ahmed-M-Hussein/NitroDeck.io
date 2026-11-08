@@ -1,0 +1,166 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Microsoft Teams",
+  "items": [
+    {
+      "type": "app",
+      "label": "Teams",
+      "appName": "Teams"
+    },
+    {
+      "type": "shortcut",
+      "label": "Mute / unmute",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "m"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Camera",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "o"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Share screen",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "e"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Raise hand",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "k"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "End call",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "h"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Accept video",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "a"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Accept audio",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Decline",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "d"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Search",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "e"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Go to",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Activity",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "1"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Chat",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "2"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Teams",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "3"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Calendar",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "4"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Calls",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "5"
+          }
+        }
+      ]
+    }
+  ]
+}

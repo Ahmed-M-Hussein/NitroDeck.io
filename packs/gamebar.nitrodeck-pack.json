@@ -1,0 +1,12 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Xbox Game Bar",
+  "items": [
+    {
+      "type": "app",
+      "label": "Xbox",
+      "appName": "Xbox"
+    }
+  ]
+}

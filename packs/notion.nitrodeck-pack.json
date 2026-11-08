@@ -1,0 +1,135 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Notion",
+  "items": [
+    {
+      "type": "app",
+      "label": "Notion",
+      "appName": "Notion"
+    },
+    {
+      "type": "shortcut",
+      "label": "Search",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "New page",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "New window",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Sidebar",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "backslash"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Dark mode",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "l"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Bold",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "b"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Insert link",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "k"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Comment",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "m"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Toggle to-do",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "enter"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Duplicate",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "d"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Back",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "bracketleft"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Forward",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "bracketright"
+      }
+    }
+  ]
+}

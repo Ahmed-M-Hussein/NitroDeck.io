@@ -1,0 +1,16 @@
+{
+  "name": "Figma",
+  "category": "Creative",
+  "description": "Keyboard shortcuts and quick actions for Figma.",
+  "color": "#1E1E1E",
+  "icon": "palette",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Figma"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

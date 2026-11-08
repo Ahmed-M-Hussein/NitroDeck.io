@@ -1,0 +1,12 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Docker Desktop",
+  "items": [
+    {
+      "type": "app",
+      "label": "Docker Desktop",
+      "appName": "Docker Desktop"
+    }
+  ]
+}

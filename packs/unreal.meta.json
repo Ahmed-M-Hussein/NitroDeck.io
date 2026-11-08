@@ -1,0 +1,19 @@
+{
+  "name": "Unreal Engine",
+  "category": "Game development",
+  "description": "Keyboard shortcuts and quick actions for Unreal Engine.",
+  "color": "#0D1117",
+  "icon": "cube",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Unreal Editor",
+    "UnrealEditor",
+    "Unreal Engine",
+    "Epic Games Launcher"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

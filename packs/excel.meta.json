@@ -1,0 +1,18 @@
+{
+  "name": "Microsoft Excel",
+  "category": "Microsoft Office",
+  "description": "Keyboard shortcuts and quick actions for Microsoft Excel.",
+  "color": "#217346",
+  "icon": "document",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Excel",
+    "Microsoft Excel",
+    "EXCEL"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

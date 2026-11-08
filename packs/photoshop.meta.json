@@ -1,0 +1,17 @@
+{
+  "name": "Adobe Photoshop",
+  "category": "Creative",
+  "description": "Keyboard shortcuts and quick actions for Adobe Photoshop.",
+  "color": "#001E36",
+  "icon": "palette",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Adobe Photoshop",
+    "Photoshop"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

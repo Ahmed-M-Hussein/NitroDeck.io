@@ -1,0 +1,16 @@
+{
+  "name": "Claude",
+  "category": "AI",
+  "description": "Keyboard shortcuts and quick actions for Claude.",
+  "color": "#C15F3C",
+  "icon": "sparkle",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Claude"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

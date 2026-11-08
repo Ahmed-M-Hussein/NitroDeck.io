@@ -1,0 +1,17 @@
+{
+  "name": "Docker Desktop",
+  "category": "Development",
+  "description": "Keyboard shortcuts and quick actions for Docker Desktop.",
+  "color": "#2496ED",
+  "icon": "code",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Docker Desktop",
+    "Docker"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

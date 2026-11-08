@@ -1,0 +1,19 @@
+{
+  "name": "Adobe Premiere Pro",
+  "category": "Creative",
+  "description": "Keyboard shortcuts and quick actions for Adobe Premiere Pro.",
+  "color": "#00005B",
+  "icon": "palette",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Adobe Premiere Pro",
+    "Premiere Pro",
+    "Adobe Premiere Pro 2024",
+    "Adobe Premiere Pro 2025"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

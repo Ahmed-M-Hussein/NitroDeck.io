@@ -1,0 +1,18 @@
+{
+  "name": "Unity",
+  "category": "Game development",
+  "description": "Keyboard shortcuts and quick actions for Unity.",
+  "color": "#222222",
+  "icon": "cube",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Unity",
+    "Unity Hub",
+    "Unity Editor"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

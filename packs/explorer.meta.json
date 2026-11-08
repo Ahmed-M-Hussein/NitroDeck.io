@@ -1,0 +1,16 @@
+{
+  "name": "File Explorer",
+  "category": "Windows tools",
+  "description": "Keyboard shortcuts and quick actions for File Explorer.",
+  "color": "#E2A92A",
+  "icon": "settings",
+  "platforms": [
+    "windows"
+  ],
+  "match": [
+    "File Explorer",
+    "explorer"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

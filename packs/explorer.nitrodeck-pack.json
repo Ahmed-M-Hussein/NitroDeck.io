@@ -1,0 +1,140 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "File Explorer",
+  "items": [
+    {
+      "type": "app",
+      "label": "File Explorer",
+      "appName": "File Explorer"
+    },
+    {
+      "type": "shortcut",
+      "label": "New window",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "New folder",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Search",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "e"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Address bar",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "d"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Rename",
+      "keys": {
+        "mods": [],
+        "key": "f2"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Properties",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "enter"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Refresh",
+      "keys": {
+        "mods": [],
+        "key": "f5"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Preview pane",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Details pane",
+      "keys": {
+        "mods": [
+          "alt",
+          "shift"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Select all",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "a"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Up one level",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "up"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Back",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "left"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Forward",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "right"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Spotify",
+  "category": "Streaming and media",
+  "description": "Keyboard shortcuts and quick actions for Spotify.",
+  "color": "#1DB954",
+  "icon": "broadcast",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Spotify"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Slack",
+  "category": "Gaming and chat",
+  "description": "Keyboard shortcuts and quick actions for Slack.",
+  "color": "#611F69",
+  "icon": "gamepad",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Slack"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

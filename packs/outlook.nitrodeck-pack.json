@@ -1,0 +1,159 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Microsoft Outlook",
+  "items": [
+    {
+      "type": "app",
+      "label": "Outlook",
+      "appName": "Outlook"
+    },
+    {
+      "type": "shortcut",
+      "label": "New email",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "m"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Send",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "enter"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Reply",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "r"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Reply all",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "r"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Forward",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Search",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "e"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Send / receive",
+      "keys": {
+        "mods": [],
+        "key": "f9"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Mark read",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "q"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Mark unread",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "u"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "New meeting",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "q"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Go to",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Mail",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "1"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Calendar",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "2"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "People",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "3"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Tasks",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "4"
+          }
+        }
+      ]
+    }
+  ]
+}

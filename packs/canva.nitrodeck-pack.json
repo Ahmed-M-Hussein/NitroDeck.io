@@ -1,0 +1,140 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Canva",
+  "items": [
+    {
+      "type": "app",
+      "label": "Canva",
+      "appName": "Canva"
+    },
+    {
+      "type": "group",
+      "label": "Add",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Text",
+          "keys": {
+            "mods": [],
+            "key": "t"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Rectangle",
+          "keys": {
+            "mods": [],
+            "key": "r"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Circle",
+          "keys": {
+            "mods": [],
+            "key": "c"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Line",
+          "keys": {
+            "mods": [],
+            "key": "l"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Search elements",
+          "keys": {
+            "mods": [],
+            "key": "slash"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Undo",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "z"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Redo",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "z"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Duplicate",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "d"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Group",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "g"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Ungroup",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "g"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Bring forward",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "bracketright"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Send backward",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "bracketleft"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Add page",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "enter"
+      }
+    }
+  ]
+}

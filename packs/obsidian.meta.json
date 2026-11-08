@@ -1,0 +1,16 @@
+{
+  "name": "Obsidian",
+  "category": "Notes and documents",
+  "description": "Keyboard shortcuts and quick actions for Obsidian.",
+  "color": "#6C31E3",
+  "icon": "notes",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Obsidian"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

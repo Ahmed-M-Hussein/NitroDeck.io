@@ -1,0 +1,284 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Visual Studio Code",
+  "items": [
+    {
+      "type": "app",
+      "label": "VS Code",
+      "appName": "Visual Studio Code"
+    },
+    {
+      "type": "shortcut",
+      "label": "Command palette",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Quick open",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Search files",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Terminal",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "grave"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Sidebar",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "b"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Comment line",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "slash"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Format",
+      "keys": {
+        "mods": [
+          "alt",
+          "shift"
+        ],
+        "key": "f"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Code",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Go to definition",
+          "keys": {
+            "mods": [],
+            "key": "f12"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Rename symbol",
+          "keys": {
+            "mods": [],
+            "key": "f2"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Multi-cursor",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "d"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Move line up",
+          "keys": {
+            "mods": [
+              "alt"
+            ],
+            "key": "up"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Move line down",
+          "keys": {
+            "mods": [
+              "alt"
+            ],
+            "key": "down"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Copy line down",
+          "keys": {
+            "mods": [
+              "alt",
+              "shift"
+            ],
+            "key": "down"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Split editor",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "backslash"
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "label": "Debug",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Start",
+          "keys": {
+            "mods": [],
+            "key": "f5"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Stop",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "f5"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Restart",
+          "keys": {
+            "mods": [
+              "primary",
+              "shift"
+            ],
+            "key": "f5"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Step over",
+          "keys": {
+            "mods": [],
+            "key": "f10"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Step into",
+          "keys": {
+            "mods": [],
+            "key": "f11"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Step out",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "f11"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Breakpoint",
+          "keys": {
+            "mods": [],
+            "key": "f9"
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "label": "Copilot",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Open chat",
+          "keys": {
+            "mods": [
+              "primary",
+              "alt"
+            ],
+            "key": "i"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Inline chat",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "i"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous editor tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "pageup"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next editor tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "pagedown"
+      }
+    }
+  ]
+}

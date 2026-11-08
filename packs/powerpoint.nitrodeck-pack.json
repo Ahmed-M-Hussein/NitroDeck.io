@@ -1,0 +1,132 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Microsoft PowerPoint",
+  "items": [
+    {
+      "type": "app",
+      "label": "PowerPoint",
+      "appName": "PowerPoint"
+    },
+    {
+      "type": "shortcut",
+      "label": "Start show",
+      "keys": {
+        "mods": [],
+        "key": "f5"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "From this slide",
+      "keys": {
+        "mods": [
+          "shift"
+        ],
+        "key": "f5"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Presenter view",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "f5"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "End show",
+      "keys": {
+        "mods": [],
+        "key": "escape"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Black screen",
+      "keys": {
+        "mods": [],
+        "key": "b"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "White screen",
+      "keys": {
+        "mods": [],
+        "key": "w"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "New slide",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "m"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Duplicate slide",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "d"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Group objects",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "g"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Ungroup",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "g"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous slide",
+      "keys": {
+        "mods": [],
+        "key": "pageup"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next slide",
+      "keys": {
+        "mods": [],
+        "key": "pagedown"
+      }
+    }
+  ]
+}

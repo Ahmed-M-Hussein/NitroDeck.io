@@ -1,0 +1,16 @@
+{
+  "name": "Canva",
+  "category": "Creative",
+  "description": "Keyboard shortcuts and quick actions for Canva.",
+  "color": "#00C4CC",
+  "icon": "palette",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Canva"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

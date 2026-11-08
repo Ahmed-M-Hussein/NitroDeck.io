@@ -1,0 +1,189 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Sublime Text",
+  "items": [
+    {
+      "type": "app",
+      "label": "Sublime Text",
+      "appName": "Sublime Text"
+    },
+    {
+      "type": "shortcut",
+      "label": "Command palette",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Go to anything",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Go to symbol",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "r"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Go to line",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "g"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Find",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Find in files",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Multi-select next",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "d"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Select line",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "l"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Duplicate line",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "d"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Delete line",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "k"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Comment line",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "slash"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Move line up",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "up"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Move line down",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "down"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Build",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "b"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save all",
+      "keys": {
+        "mods": [
+          "primary",
+          "alt"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "pageup"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "pagedown"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Audacity",
+  "category": "Creative",
+  "description": "Keyboard shortcuts and quick actions for Audacity.",
+  "color": "#1E2A78",
+  "icon": "palette",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Audacity"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

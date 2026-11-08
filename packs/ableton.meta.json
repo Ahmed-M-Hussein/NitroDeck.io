@@ -1,0 +1,19 @@
+{
+  "name": "Ableton Live",
+  "category": "Creative",
+  "description": "Keyboard shortcuts and quick actions for Ableton Live.",
+  "color": "#1F1F1F",
+  "icon": "palette",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Ableton Live",
+    "Live",
+    "Ableton Live 11 Suite",
+    "Ableton Live 12 Suite"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

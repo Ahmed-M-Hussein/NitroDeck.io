@@ -1,0 +1,54 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Claude",
+  "items": [
+    {
+      "type": "app",
+      "label": "Claude",
+      "appName": "Claude"
+    },
+    {
+      "type": "shortcut",
+      "label": "New chat",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "o"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Search chats",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "k"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Quick entry",
+      "keys": {
+        "mods": [
+          "primary",
+          "alt"
+        ],
+        "key": "space"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Sidebar",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "period"
+      }
+    }
+  ]
+}

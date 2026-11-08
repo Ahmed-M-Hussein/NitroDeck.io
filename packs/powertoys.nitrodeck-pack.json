@@ -1,0 +1,22 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "PowerToys",
+  "items": [
+    {
+      "type": "app",
+      "label": "PowerToys",
+      "appName": "PowerToys"
+    },
+    {
+      "type": "shortcut",
+      "label": "PowerToys Run",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "space"
+      }
+    }
+  ]
+}

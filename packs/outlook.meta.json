@@ -1,0 +1,19 @@
+{
+  "name": "Microsoft Outlook",
+  "category": "Microsoft Office",
+  "description": "Keyboard shortcuts and quick actions for Microsoft Outlook.",
+  "color": "#0F6CBD",
+  "icon": "document",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Outlook",
+    "Microsoft Outlook",
+    "OUTLOOK",
+    "olk"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

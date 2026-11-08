@@ -1,0 +1,16 @@
+{
+  "name": "WhatsApp",
+  "category": "Gaming and chat",
+  "description": "Keyboard shortcuts and quick actions for WhatsApp.",
+  "color": "#25D366",
+  "icon": "gamepad",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "WhatsApp"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

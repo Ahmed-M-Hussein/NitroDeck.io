@@ -1,0 +1,16 @@
+{
+  "name": "Discord",
+  "category": "Gaming and chat",
+  "description": "Keyboard shortcuts and quick actions for Discord.",
+  "color": "#5865F2",
+  "icon": "gamepad",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Discord"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

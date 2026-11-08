@@ -1,0 +1,16 @@
+{
+  "name": "Task Manager",
+  "category": "Windows tools",
+  "description": "Keyboard shortcuts and quick actions for Task Manager.",
+  "color": "#2D2D2D",
+  "icon": "settings",
+  "platforms": [
+    "windows"
+  ],
+  "match": [
+    "Task Manager",
+    "Taskmgr"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

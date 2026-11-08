@@ -1,0 +1,1070 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "ableton",
+      "name": "Ableton Live",
+      "category": "Creative",
+      "description": "Keyboard shortcuts and quick actions for Ableton Live.",
+      "color": "#1F1F1F",
+      "icon": "palette",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Ableton Live",
+        "Live",
+        "Ableton Live 11 Suite",
+        "Ableton Live 12 Suite"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 16,
+      "file": "packs/ableton.nitrodeck-pack.json",
+      "sha256": "925d9aa0455d404ba6b53fa64aca9b143420e5bbd09b798d4731b6649287f67c"
+    },
+    {
+      "id": "acrobat",
+      "name": "Adobe Acrobat",
+      "category": "Notes and documents",
+      "description": "Keyboard shortcuts and quick actions for Adobe Acrobat.",
+      "color": "#B30B00",
+      "icon": "notes",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Adobe Acrobat",
+        "Acrobat",
+        "Acrobat Reader",
+        "Adobe Acrobat Reader",
+        "AcroRd32",
+        "Acrobat.exe"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 14,
+      "file": "packs/acrobat.nitrodeck-pack.json",
+      "sha256": "2ad8c35301e46ecc2888775e3bf70f254bc5206c7671183dd1199bc96bcc320e"
+    },
+    {
+      "id": "androidstudio",
+      "name": "Android Studio",
+      "category": "Development",
+      "description": "Keyboard shortcuts and quick actions for Android Studio.",
+      "color": "#3DDC84",
+      "icon": "code",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Android Studio",
+        "studio64"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 23,
+      "file": "packs/androidstudio.nitrodeck-pack.json",
+      "sha256": "42b0aabc017c5ffc5ddce26f633549eba6b2a8f56c36a9990343e347c3e9947d"
+    },
+    {
+      "id": "audacity",
+      "name": "Audacity",
+      "category": "Creative",
+      "description": "Keyboard shortcuts and quick actions for Audacity.",
+      "color": "#1E2A78",
+      "icon": "palette",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Audacity"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 14,
+      "file": "packs/audacity.nitrodeck-pack.json",
+      "sha256": "d3f55c05b52e334f996482982ff92dd0c992b091ab6b1a182ac7682b6c10d4d3"
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "category": "Creative",
+      "description": "Keyboard shortcuts and quick actions for Blender.",
+      "color": "#3A3A3A",
+      "icon": "palette",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Blender",
+        "blender-launcher"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 18,
+      "file": "packs/blender.nitrodeck-pack.json",
+      "sha256": "3480b427caa707bb28678edcfc2e4f5e1da95f7122b8692a2e4f7a4b39ca0a22"
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "category": "Creative",
+      "description": "Keyboard shortcuts and quick actions for Canva.",
+      "color": "#00C4CC",
+      "icon": "palette",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Canva"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 15,
+      "file": "packs/canva.nitrodeck-pack.json",
+      "sha256": "ff6bda69cce9cf1b2af9172885c06d1875c49ccc573654bee43230b1a83f6479"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "category": "AI",
+      "description": "Keyboard shortcuts and quick actions for ChatGPT.",
+      "color": "#10A37F",
+      "icon": "sparkle",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "ChatGPT"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 10,
+      "file": "packs/chatgpt.nitrodeck-pack.json",
+      "sha256": "140d4bd6f43f6c25756f8e7bf24f259be7bc6797282141288172a0fbe1262b13"
+    },
+    {
+      "id": "chrome",
+      "name": "Google Chrome",
+      "category": "Browsers",
+      "description": "Keyboard shortcuts and quick actions for Google Chrome.",
+      "color": "#1A73E8",
+      "icon": "globe",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Google Chrome",
+        "Chrome"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 18,
+      "file": "packs/chrome.nitrodeck-pack.json",
+      "sha256": "9d6c9aa33fa9685a4fc16850a72fcc65ed92e2a4b27705bf827ef2d2911ca223"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "category": "AI",
+      "description": "Keyboard shortcuts and quick actions for Claude.",
+      "color": "#C15F3C",
+      "icon": "sparkle",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Claude"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 5,
+      "file": "packs/claude.nitrodeck-pack.json",
+      "sha256": "16d7ff82aeb22a577b42f239b7558357b145f46533ba43ecd925f5f17f1a462d"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "category": "AI",
+      "description": "Keyboard shortcuts and quick actions for Cursor.",
+      "color": "#3B3B3B",
+      "icon": "sparkle",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Cursor"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 14,
+      "file": "packs/cursor.nitrodeck-pack.json",
+      "sha256": "3b281621801eb23175c0ed166acacb26118fbfe94b49a719610e439dfa928708"
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "category": "Gaming and chat",
+      "description": "Keyboard shortcuts and quick actions for Discord.",
+      "color": "#5865F2",
+      "icon": "gamepad",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Discord"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 15,
+      "file": "packs/discord.nitrodeck-pack.json",
+      "sha256": "c548bf17a78ac1248299c5aea4563dbd2cb53679bfdf0ba5fbf2d4d8b5ef608f"
+    },
+    {
+      "id": "docker",
+      "name": "Docker Desktop",
+      "category": "Development",
+      "description": "Keyboard shortcuts and quick actions for Docker Desktop.",
+      "color": "#2496ED",
+      "icon": "code",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Docker Desktop",
+        "Docker"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 1,
+      "file": "packs/docker.nitrodeck-pack.json",
+      "sha256": "2ed98a03d1783f6443c887e752c567eff2cdc358ac0da14501ffd902674d2329"
+    },
+    {
+      "id": "edge",
+      "name": "Microsoft Edge",
+      "category": "Browsers",
+      "description": "Keyboard shortcuts and quick actions for Microsoft Edge.",
+      "color": "#0C7FB8",
+      "icon": "globe",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Microsoft Edge",
+        "Edge",
+        "msedge"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 20,
+      "file": "packs/edge.nitrodeck-pack.json",
+      "sha256": "522320f9f7d8117e98ae81b98b0aca9c13eef16c25e4c52d9e4444d4d3a48957"
+    },
+    {
+      "id": "excel",
+      "name": "Microsoft Excel",
+      "category": "Microsoft Office",
+      "description": "Keyboard shortcuts and quick actions for Microsoft Excel.",
+      "color": "#217346",
+      "icon": "document",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Excel",
+        "Microsoft Excel",
+        "EXCEL"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 22,
+      "file": "packs/excel.nitrodeck-pack.json",
+      "sha256": "ad18121a29b56e870bdf201db8db6a359f06c8b4c806dbe12885cb4ca8bdec00"
+    },
+    {
+      "id": "explorer",
+      "name": "File Explorer",
+      "category": "Windows tools",
+      "description": "Keyboard shortcuts and quick actions for File Explorer.",
+      "color": "#E2A92A",
+      "icon": "settings",
+      "platforms": [
+        "windows"
+      ],
+      "match": [
+        "File Explorer",
+        "explorer"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 14,
+      "file": "packs/explorer.nitrodeck-pack.json",
+      "sha256": "b43afffa9db8c2f37c0215e28f1c802b3c9d30392ff9a91985c06e6cf6733450"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "category": "Creative",
+      "description": "Keyboard shortcuts and quick actions for Figma.",
+      "color": "#1E1E1E",
+      "icon": "palette",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Figma"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 22,
+      "file": "packs/figma.nitrodeck-pack.json",
+      "sha256": "3fb38ea8bcc8a08807623695e18636ad0adac42dd8213f0a414ff4a63861cf71"
+    },
+    {
+      "id": "firefox",
+      "name": "Mozilla Firefox",
+      "category": "Browsers",
+      "description": "Keyboard shortcuts and quick actions for Mozilla Firefox.",
+      "color": "#E66000",
+      "icon": "globe",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Firefox",
+        "Mozilla Firefox"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 20,
+      "file": "packs/firefox.nitrodeck-pack.json",
+      "sha256": "d72b379b9a7ba853843455829964d9c38a9cb02501785239b990859e6462769a"
+    },
+    {
+      "id": "flstudio",
+      "name": "FL Studio",
+      "category": "Creative",
+      "description": "Keyboard shortcuts and quick actions for FL Studio.",
+      "color": "#F08A24",
+      "icon": "palette",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "FL Studio",
+        "FL64",
+        "FL Studio 21",
+        "FL Studio 2024"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 13,
+      "file": "packs/flstudio.nitrodeck-pack.json",
+      "sha256": "0b15f630fc1daeb9e2d5c41a24a5c967f5041dd5916938c565cdccb9edc5b0f7"
+    },
+    {
+      "id": "gamebar",
+      "name": "Xbox Game Bar",
+      "category": "Gaming and chat",
+      "description": "Keyboard shortcuts and quick actions for Xbox Game Bar.",
+      "color": "#107C10",
+      "icon": "gamepad",
+      "platforms": [
+        "windows"
+      ],
+      "match": [
+        "Xbox",
+        "Xbox Game Bar",
+        "GameBar"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 1,
+      "file": "packs/gamebar.nitrodeck-pack.json",
+      "sha256": "7fb734d5b8d0fe13b1c5f0aee617b5cbd5a69fabc3027a2d6af3e8f6b5909481"
+    },
+    {
+      "id": "githubdesktop",
+      "name": "GitHub Desktop",
+      "category": "Development",
+      "description": "Keyboard shortcuts and quick actions for GitHub Desktop.",
+      "color": "#24292F",
+      "icon": "code",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "GitHub Desktop",
+        "GitHubDesktop"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 13,
+      "file": "packs/githubdesktop.nitrodeck-pack.json",
+      "sha256": "6d05a8b24900267083ed00b3ed64aa338e77f1d099b1c3741c426ff46cfe2c1d"
+    },
+    {
+      "id": "illustrator",
+      "name": "Adobe Illustrator",
+      "category": "Creative",
+      "description": "Keyboard shortcuts and quick actions for Adobe Illustrator.",
+      "color": "#330000",
+      "icon": "palette",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Adobe Illustrator",
+        "Illustrator"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 25,
+      "file": "packs/illustrator.nitrodeck-pack.json",
+      "sha256": "8243a1ac65f28f081420226f02727e4d8c957ae932eb0d436cc33aa87f9d718f"
+    },
+    {
+      "id": "jetbrains",
+      "name": "JetBrains IDEs",
+      "category": "Development",
+      "description": "Keyboard shortcuts and quick actions for JetBrains IDEs.",
+      "color": "#C2185B",
+      "icon": "code",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "IntelliJ IDEA",
+        "Rider",
+        "PyCharm",
+        "WebStorm",
+        "GoLand",
+        "CLion",
+        "PhpStorm",
+        "idea64",
+        "rider64",
+        "pycharm64",
+        "webstorm64"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 23,
+      "file": "packs/jetbrains.nitrodeck-pack.json",
+      "sha256": "9d347abbf79e9934f36d677dbbb703880ae3c08d9dab4fd0ea9dde6700c8a860"
+    },
+    {
+      "id": "notepadpp",
+      "name": "Notepad++",
+      "category": "Development",
+      "description": "Keyboard shortcuts and quick actions for Notepad++.",
+      "color": "#3C8D2F",
+      "icon": "code",
+      "platforms": [
+        "windows"
+      ],
+      "match": [
+        "Notepad++",
+        "notepad++"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 16,
+      "file": "packs/notepadpp.nitrodeck-pack.json",
+      "sha256": "92b825fcff572061cc5ea541fb9091a4a3f13dad013c8e58119e60d0bc16307e"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "category": "Notes and documents",
+      "description": "Keyboard shortcuts and quick actions for Notion.",
+      "color": "#2B2B2B",
+      "icon": "notes",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Notion"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 13,
+      "file": "packs/notion.nitrodeck-pack.json",
+      "sha256": "a2f9afe063525fd7b6043a39acd88b1c002077e89d00e2b89a5f1e4889a9440c"
+    },
+    {
+      "id": "obs",
+      "name": "OBS Studio",
+      "category": "Streaming and media",
+      "description": "Keyboard shortcuts and quick actions for OBS Studio.",
+      "color": "#3A3A3A",
+      "icon": "broadcast",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "OBS Studio",
+        "OBS",
+        "obs64"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 6,
+      "file": "packs/obs.nitrodeck-pack.json",
+      "sha256": "c260afd2bd54f903d22c8117129ba13521228e1ff87e8266f036d09118e1f378"
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "category": "Notes and documents",
+      "description": "Keyboard shortcuts and quick actions for Obsidian.",
+      "color": "#6C31E3",
+      "icon": "notes",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Obsidian"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 16,
+      "file": "packs/obsidian.nitrodeck-pack.json",
+      "sha256": "40f58b04b7ada86e0c334cbdb5cd0d4ff20e8167bbfdf72a51b21fff4574d0a5"
+    },
+    {
+      "id": "outlook",
+      "name": "Microsoft Outlook",
+      "category": "Microsoft Office",
+      "description": "Keyboard shortcuts and quick actions for Microsoft Outlook.",
+      "color": "#0F6CBD",
+      "icon": "document",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Outlook",
+        "Microsoft Outlook",
+        "OUTLOOK",
+        "olk"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 16,
+      "file": "packs/outlook.nitrodeck-pack.json",
+      "sha256": "5833f4ea924e2cabff46d28f4068852d3a9275852e3b1e237ab47ac078918e0b"
+    },
+    {
+      "id": "photoshop",
+      "name": "Adobe Photoshop",
+      "category": "Creative",
+      "description": "Keyboard shortcuts and quick actions for Adobe Photoshop.",
+      "color": "#001E36",
+      "icon": "palette",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Adobe Photoshop",
+        "Photoshop"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 26,
+      "file": "packs/photoshop.nitrodeck-pack.json",
+      "sha256": "67023ea8132fcdb03f868076ac439f8de8dad6c92bafd4959585afa66b76621a"
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "category": "Development",
+      "description": "Keyboard shortcuts and quick actions for Postman.",
+      "color": "#FF6C37",
+      "icon": "code",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Postman"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 13,
+      "file": "packs/postman.nitrodeck-pack.json",
+      "sha256": "807137e5215f9f61d1a0003c25e1d5e2a62cda92e098cb1a509b31d3cb4bee53"
+    },
+    {
+      "id": "powerpoint",
+      "name": "Microsoft PowerPoint",
+      "category": "Microsoft Office",
+      "description": "Keyboard shortcuts and quick actions for Microsoft PowerPoint.",
+      "color": "#C43E1C",
+      "icon": "document",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "PowerPoint",
+        "Microsoft PowerPoint",
+        "POWERPNT"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 14,
+      "file": "packs/powerpoint.nitrodeck-pack.json",
+      "sha256": "fb591fcda89f5c2072a242eb49723b2d4f6b855752931f8d2d12d41118ec690b"
+    },
+    {
+      "id": "powertoys",
+      "name": "PowerToys",
+      "category": "Windows tools",
+      "description": "Keyboard shortcuts and quick actions for PowerToys.",
+      "color": "#0F6CBD",
+      "icon": "settings",
+      "platforms": [
+        "windows"
+      ],
+      "match": [
+        "PowerToys",
+        "PowerToys.PowerLauncher",
+        "PowerToys.Settings"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 2,
+      "file": "packs/powertoys.nitrodeck-pack.json",
+      "sha256": "a83093d9e07e4284d858129bbed27999b01083962572f57366bb31d0a9e4172b"
+    },
+    {
+      "id": "premiere",
+      "name": "Adobe Premiere Pro",
+      "category": "Creative",
+      "description": "Keyboard shortcuts and quick actions for Adobe Premiere Pro.",
+      "color": "#00005B",
+      "icon": "palette",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Adobe Premiere Pro",
+        "Premiere Pro",
+        "Adobe Premiere Pro 2024",
+        "Adobe Premiere Pro 2025"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 24,
+      "file": "packs/premiere.nitrodeck-pack.json",
+      "sha256": "8b387db26011e507348a10f3715eef7644773b0491a1ee8fc0a9148d4e057b09"
+    },
+    {
+      "id": "resolve",
+      "name": "DaVinci Resolve",
+      "category": "Creative",
+      "description": "Keyboard shortcuts and quick actions for DaVinci Resolve.",
+      "color": "#1B1B1B",
+      "icon": "palette",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "DaVinci Resolve",
+        "Resolve"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 26,
+      "file": "packs/resolve.nitrodeck-pack.json",
+      "sha256": "59c59d9f9402dd2cb9e75a765382cbb95cae6bf2396c61f65ad53f6d58c62417"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "category": "Gaming and chat",
+      "description": "Keyboard shortcuts and quick actions for Slack.",
+      "color": "#611F69",
+      "icon": "gamepad",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Slack"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 13,
+      "file": "packs/slack.nitrodeck-pack.json",
+      "sha256": "7640d18059222eb779c513c37ec6778f92c8d85ae4bb573ca82bc37deb209a0f"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "category": "Streaming and media",
+      "description": "Keyboard shortcuts and quick actions for Spotify.",
+      "color": "#1DB954",
+      "icon": "broadcast",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Spotify"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 11,
+      "file": "packs/spotify.nitrodeck-pack.json",
+      "sha256": "bc1a01883db62fe8d2b71debc81257ddb481dca88211d12c0754ce51ea3961b1"
+    },
+    {
+      "id": "steam",
+      "name": "Steam",
+      "category": "Gaming and chat",
+      "description": "Keyboard shortcuts and quick actions for Steam.",
+      "color": "#2A475E",
+      "icon": "gamepad",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Steam"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 3,
+      "file": "packs/steam.nitrodeck-pack.json",
+      "sha256": "9b51f2c187b873e93da7af6a5de9a733d38baafa75f674f35fc21eb358feaa54"
+    },
+    {
+      "id": "sublime",
+      "name": "Sublime Text",
+      "category": "Development",
+      "description": "Keyboard shortcuts and quick actions for Sublime Text.",
+      "color": "#FF9800",
+      "icon": "code",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Sublime Text",
+        "sublime_text"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 18,
+      "file": "packs/sublime.nitrodeck-pack.json",
+      "sha256": "82aa03f86e47b298862d0cf806d98cfdbeff8edc26df42104190b75342e9dd75"
+    },
+    {
+      "id": "taskmanager",
+      "name": "Task Manager",
+      "category": "Windows tools",
+      "description": "Keyboard shortcuts and quick actions for Task Manager.",
+      "color": "#2D2D2D",
+      "icon": "settings",
+      "platforms": [
+        "windows"
+      ],
+      "match": [
+        "Task Manager",
+        "Taskmgr"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 4,
+      "file": "packs/taskmanager.nitrodeck-pack.json",
+      "sha256": "73ce241d8f29a0e6c093143c3bffc0dbe9eddbc8e013a5a9a0039a5b0bdda6a7"
+    },
+    {
+      "id": "teams",
+      "name": "Microsoft Teams",
+      "category": "Microsoft Office",
+      "description": "Keyboard shortcuts and quick actions for Microsoft Teams.",
+      "color": "#5B5FC7",
+      "icon": "document",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Teams",
+        "Microsoft Teams",
+        "ms-teams"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 16,
+      "file": "packs/teams.nitrodeck-pack.json",
+      "sha256": "232ff350211ff1d89ea6cd6c8bd63d346ed8256f87426aa6239429d93cdfeecf"
+    },
+    {
+      "id": "terminal",
+      "name": "Windows Terminal",
+      "category": "Development",
+      "description": "Keyboard shortcuts and quick actions for Windows Terminal.",
+      "color": "#333333",
+      "icon": "code",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Terminal",
+        "Windows Terminal",
+        "WindowsTerminal",
+        "wt"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 22,
+      "file": "packs/terminal.nitrodeck-pack.json",
+      "sha256": "47ecf3d9b2cc472d7250fb14f9bc65095b110707be65322d9e3b343fc88f6a19"
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "category": "Notes and documents",
+      "description": "Keyboard shortcuts and quick actions for Todoist.",
+      "color": "#E44332",
+      "icon": "notes",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Todoist"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 5,
+      "file": "packs/todoist.nitrodeck-pack.json",
+      "sha256": "ef41e1e2ad7de2511ada0224539640e63938d6625d7ed8141af580c1c0dbd51a"
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "category": "Game development",
+      "description": "Keyboard shortcuts and quick actions for Unity.",
+      "color": "#222222",
+      "icon": "cube",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Unity",
+        "Unity Hub",
+        "Unity Editor"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 23,
+      "file": "packs/unity.nitrodeck-pack.json",
+      "sha256": "3230e032d8726496ac6b20db9a3aa4fc2b49ee794cf2b136a367bd7c7f4a1438"
+    },
+    {
+      "id": "unreal",
+      "name": "Unreal Engine",
+      "category": "Game development",
+      "description": "Keyboard shortcuts and quick actions for Unreal Engine.",
+      "color": "#0D1117",
+      "icon": "cube",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Unreal Editor",
+        "UnrealEditor",
+        "Unreal Engine",
+        "Epic Games Launcher"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 17,
+      "file": "packs/unreal.nitrodeck-pack.json",
+      "sha256": "d2eaa75f622590649be270d5d698722254e83a94f50e2f2bde6b0e50b2791a36"
+    },
+    {
+      "id": "visualstudio",
+      "name": "Visual Studio",
+      "category": "Development",
+      "description": "Keyboard shortcuts and quick actions for Visual Studio.",
+      "color": "#5C2D91",
+      "icon": "code",
+      "platforms": [
+        "windows"
+      ],
+      "match": [
+        "Visual Studio",
+        "Visual Studio 2022",
+        "Visual Studio 2019",
+        "devenv"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 17,
+      "file": "packs/visualstudio.nitrodeck-pack.json",
+      "sha256": "3d6f5f66c608d7aa2df51ef88a084295092fa6c7e376d20e97e83e423be69f6a"
+    },
+    {
+      "id": "vlc",
+      "name": "VLC media player",
+      "category": "Streaming and media",
+      "description": "Keyboard shortcuts and quick actions for VLC media player.",
+      "color": "#FF8800",
+      "icon": "broadcast",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "VLC media player",
+        "VLC",
+        "vlc"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 21,
+      "file": "packs/vlc.nitrodeck-pack.json",
+      "sha256": "4f2baea544ae8182bb6e7c78c797bce7256766ffd10d096ebde5f0ddecf503d2"
+    },
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "category": "Development",
+      "description": "Keyboard shortcuts and quick actions for Visual Studio Code.",
+      "color": "#007ACC",
+      "icon": "code",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Visual Studio Code",
+        "Code"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 30,
+      "file": "packs/vscode.nitrodeck-pack.json",
+      "sha256": "4db809c81e0101729fadfc9d581d4152b88a8e9444bfbe3d54ee4811d8af3baa"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "category": "Gaming and chat",
+      "description": "Keyboard shortcuts and quick actions for WhatsApp.",
+      "color": "#25D366",
+      "icon": "gamepad",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "WhatsApp"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 11,
+      "file": "packs/whatsapp.nitrodeck-pack.json",
+      "sha256": "14c5d44c572025a99b422bb240efd4b080ffea9dd57ba2700fc994c60f1a8d73"
+    },
+    {
+      "id": "windowssettings",
+      "name": "Windows Settings",
+      "category": "Windows tools",
+      "description": "Keyboard shortcuts and quick actions for Windows Settings.",
+      "color": "#0F6CBD",
+      "icon": "settings",
+      "platforms": [
+        "windows"
+      ],
+      "match": [
+        "Settings"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 0,
+      "file": "packs/windowssettings.nitrodeck-pack.json",
+      "sha256": "6498d4aca2395cfa64cacd49867840c14cb3a378df981f1f22f54c4019628529"
+    },
+    {
+      "id": "word",
+      "name": "Microsoft Word",
+      "category": "Microsoft Office",
+      "description": "Keyboard shortcuts and quick actions for Microsoft Word.",
+      "color": "#2B579A",
+      "icon": "document",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Word",
+        "Microsoft Word",
+        "WINWORD"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 24,
+      "file": "packs/word.nitrodeck-pack.json",
+      "sha256": "d61a45cc8ae1a79d2e506475fae19d7a0f71be1a7cd1ff1ad23948aa6af3fd1b"
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "category": "Gaming and chat",
+      "description": "Keyboard shortcuts and quick actions for Zoom.",
+      "color": "#2D8CFF",
+      "icon": "gamepad",
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "match": [
+        "Zoom",
+        "Zoom Workplace",
+        "Zoom Meetings"
+      ],
+      "author": "NitroDeck",
+      "official": true,
+      "items": 11,
+      "file": "packs/zoom.nitrodeck-pack.json",
+      "sha256": "e10b80a92c43067b0c5c99511a8cff565b72a506879016bff0f46a062d43f0d0"
+    }
+  ]
+}

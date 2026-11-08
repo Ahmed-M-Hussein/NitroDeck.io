@@ -1,0 +1,18 @@
+{
+  "name": "Visual Studio",
+  "category": "Development",
+  "description": "Keyboard shortcuts and quick actions for Visual Studio.",
+  "color": "#5C2D91",
+  "icon": "code",
+  "platforms": [
+    "windows"
+  ],
+  "match": [
+    "Visual Studio",
+    "Visual Studio 2022",
+    "Visual Studio 2019",
+    "devenv"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

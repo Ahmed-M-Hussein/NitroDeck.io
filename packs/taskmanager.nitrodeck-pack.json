@@ -1,0 +1,38 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Task Manager",
+  "items": [
+    {
+      "type": "stats",
+      "label": "System stats"
+    },
+    {
+      "type": "shortcut",
+      "label": "Open Task Manager",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "escape"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "End task",
+      "keys": {
+        "mods": [],
+        "key": "delete"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Refresh",
+      "keys": {
+        "mods": [],
+        "key": "f5"
+      }
+    }
+  ]
+}

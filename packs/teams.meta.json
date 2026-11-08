@@ -1,0 +1,18 @@
+{
+  "name": "Microsoft Teams",
+  "category": "Microsoft Office",
+  "description": "Keyboard shortcuts and quick actions for Microsoft Teams.",
+  "color": "#5B5FC7",
+  "icon": "document",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Teams",
+    "Microsoft Teams",
+    "ms-teams"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

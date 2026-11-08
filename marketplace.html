@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NitroDeck Packs — ready-made decks for your apps</title>
+  <meta name="description" content="Browse ready-made NitroDeck packs for Word, Chrome, VS Code, Photoshop, OBS and more. Install any pack in your NitroDeck app with one click.">
+  <meta name="theme-color" content="#0b0e14">
+  <link rel="icon" href="assets/appIcon.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="marketplace.css">
+</head>
+<body>
+<header class="nav stuck" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="./"><img src="assets/appIcon.png" alt="">NitroDeck</a>
+    <nav class="nav-links" aria-label="Site">
+      <a href="./">Home</a>
+      <a href="marketplace.html" class="on" aria-current="page">Packs</a>
+      <a href="#submit">Submit a pack</a>
+    </nav>
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle light and dark theme">◐</button>
+  </div>
+</header>
+
+<main>
+  <section class="mp-hero">
+    <div class="wrap">
+      <span class="eyebrow">Packs</span>
+      <h1>A deck for every <span class="grad">app you use.</span></h1>
+      <p class="lede">A pack is a ready-made profile: shortcuts, panels and quick actions laid out as tiles. Pick one, confirm it in the app, and tweak it however you like.</p>
+      <div class="mp-tools">
+        <label class="mp-search"><span class="sr">Search packs</span><input id="q" type="search" placeholder="Search apps, e.g. Photoshop, Chrome, OBS…" autocomplete="off"></label>
+        <div class="mp-seg" id="platform" role="group" aria-label="Platform">
+          <button type="button" data-v="all" aria-pressed="true">All</button>
+          <button type="button" data-v="mac" aria-pressed="false">Mac</button>
+          <button type="button" data-v="windows" aria-pressed="false">Windows</button>
+        </div>
+      </div>
+      <div class="mp-chips" id="cats" role="group" aria-label="Category"></div>
+    </div>
+  </section>
+
+  <section class="mp-body">
+    <div class="wrap">
+      <p class="mp-count" id="count" role="status" aria-live="polite"></p>
+      <div class="mp-grid" id="grid"></div>
+      <p class="mp-empty" id="empty" hidden>No packs match. Try a different search, or <a href="#submit">submit one</a>.</p>
+      <p class="mp-error" id="error" hidden>The pack catalog could not be loaded. Check your connection and reload.</p>
+    </div>
+  </section>
+
+  <section class="mp-submit" id="submit">
+    <div class="wrap">
+      <h2>Make a pack for your favourite app</h2>
+      <p class="lede">Packs are plain JSON files in the open <a href="https://github.com/Ahmed-M-Hussein/NitroDeck.io">NitroDeck.io</a> repository. Add a pack and a small metadata file, open a pull request, and automatic checks tell you if anything is off. Packs can only contain safe, typed controls: shortcuts, panels and app launchers. Scripts and commands are never allowed.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://github.com/Ahmed-M-Hussein/NitroDeck.io/blob/main/CONTRIBUTING.md">How to submit →</a>
+        <a class="btn" href="https://github.com/Ahmed-M-Hussein/NitroDeck.io/tree/main/packs">Browse pack files</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<dialog id="detail" class="mp-dialog" aria-labelledby="dTitle">
+  <form method="dialog"><button class="mp-close icon-btn" aria-label="Close">✕</button></form>
+  <div class="mp-d-head">
+    <div class="mp-badge" id="dBadge" aria-hidden="true"></div>
+    <div>
+      <h2 id="dTitle"></h2>
+      <p class="mp-meta" id="dMeta"></p>
+    </div>
+  </div>
+  <p id="dDesc" class="mp-desc"></p>
+  <h3 class="mp-h3">What's inside</h3>
+  <div class="mp-tiles" id="dTiles"></div>
+  <div class="mp-actions">
+    <a class="btn primary" id="dInstall" href="#">Install in NitroDeck</a>
+    <a class="btn" id="dDownload" href="#" download>Download pack file</a>
+  </div>
+  <p class="mp-note" id="dNote"></p>
+  <p class="mp-hash">SHA-256 <code id="dHash"></code></p>
+</dialog>
+
+<footer class="mp-foot"><div class="wrap">NitroDeck packs are community-readable JSON. Installing a pack always asks you to confirm first.</div></footer>
+<script src="marketplace.js"></script>
+</body>
+</html>

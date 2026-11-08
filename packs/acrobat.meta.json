@@ -1,0 +1,21 @@
+{
+  "name": "Adobe Acrobat",
+  "category": "Notes and documents",
+  "description": "Keyboard shortcuts and quick actions for Adobe Acrobat.",
+  "color": "#B30B00",
+  "icon": "notes",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Adobe Acrobat",
+    "Acrobat",
+    "Acrobat Reader",
+    "Adobe Acrobat Reader",
+    "AcroRd32",
+    "Acrobat.exe"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

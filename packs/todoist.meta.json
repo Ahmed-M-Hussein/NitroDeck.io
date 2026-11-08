@@ -1,0 +1,16 @@
+{
+  "name": "Todoist",
+  "category": "Notes and documents",
+  "description": "Keyboard shortcuts and quick actions for Todoist.",
+  "color": "#E44332",
+  "icon": "notes",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Todoist"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

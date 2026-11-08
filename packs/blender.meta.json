@@ -1,0 +1,17 @@
+{
+  "name": "Blender",
+  "category": "Creative",
+  "description": "Keyboard shortcuts and quick actions for Blender.",
+  "color": "#3A3A3A",
+  "icon": "palette",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Blender",
+    "blender-launcher"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

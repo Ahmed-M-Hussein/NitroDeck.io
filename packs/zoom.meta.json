@@ -1,0 +1,18 @@
+{
+  "name": "Zoom",
+  "category": "Gaming and chat",
+  "description": "Keyboard shortcuts and quick actions for Zoom.",
+  "color": "#2D8CFF",
+  "icon": "gamepad",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Zoom",
+    "Zoom Workplace",
+    "Zoom Meetings"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

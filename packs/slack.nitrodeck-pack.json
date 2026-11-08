@@ -1,0 +1,137 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Slack",
+  "items": [
+    {
+      "type": "app",
+      "label": "Slack",
+      "appName": "Slack"
+    },
+    {
+      "type": "shortcut",
+      "label": "Quick switcher",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "k"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "New message",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Search",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "g"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Threads",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "t"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "DMs",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "k"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Mentions",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "m"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Saved items",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Upload file",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "u"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Huddle",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "h"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Mark all read",
+      "keys": {
+        "mods": [
+          "shift"
+        ],
+        "key": "escape"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous channel",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "up"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next channel",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "down"
+      }
+    }
+  ]
+}

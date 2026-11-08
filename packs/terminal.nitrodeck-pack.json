@@ -1,0 +1,227 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Windows Terminal",
+  "items": [
+    {
+      "type": "app",
+      "label": "Terminal",
+      "appName": "Terminal"
+    },
+    {
+      "type": "shortcut",
+      "label": "New tab",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "t"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Close tab",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "w"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Split right",
+      "keys": {
+        "mods": [
+          "alt",
+          "shift"
+        ],
+        "key": "equal"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Split down",
+      "keys": {
+        "mods": [
+          "alt",
+          "shift"
+        ],
+        "key": "minus"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Copy",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "c"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Paste",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "v"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Find",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Command palette",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Settings",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "comma"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Full screen",
+      "keys": {
+        "mods": [],
+        "key": "f11"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Panes",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Pane left",
+          "keys": {
+            "mods": [
+              "alt"
+            ],
+            "key": "left"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Pane right",
+          "keys": {
+            "mods": [
+              "alt"
+            ],
+            "key": "right"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Pane up",
+          "keys": {
+            "mods": [
+              "alt"
+            ],
+            "key": "up"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Pane down",
+          "keys": {
+            "mods": [
+              "alt"
+            ],
+            "key": "down"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous tab",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "tab"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "tab"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Smaller text",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "minus"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Larger text",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "equal"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Scroll up",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "up"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Scroll down",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "down"
+      }
+    }
+  ]
+}

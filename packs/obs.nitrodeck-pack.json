@@ -1,0 +1,37 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "OBS Studio",
+  "items": [
+    {
+      "type": "app",
+      "label": "OBS",
+      "appName": "OBS Studio"
+    },
+    {
+      "type": "obs",
+      "label": "Stream and record",
+      "obsPanel": "outputs"
+    },
+    {
+      "type": "obs",
+      "label": "Scenes",
+      "obsPanel": "scenes"
+    },
+    {
+      "type": "obs",
+      "label": "Audio mixer",
+      "obsPanel": "audio"
+    },
+    {
+      "type": "obs",
+      "label": "Sources",
+      "obsPanel": "sources"
+    },
+    {
+      "type": "obs",
+      "label": "Health",
+      "obsPanel": "status"
+    }
+  ]
+}

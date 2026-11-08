@@ -1,0 +1,17 @@
+{
+  "name": "GitHub Desktop",
+  "category": "Development",
+  "description": "Keyboard shortcuts and quick actions for GitHub Desktop.",
+  "color": "#24292F",
+  "icon": "code",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "GitHub Desktop",
+    "GitHubDesktop"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

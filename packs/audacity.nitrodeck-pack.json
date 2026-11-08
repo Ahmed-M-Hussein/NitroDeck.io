@@ -1,0 +1,131 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Audacity",
+  "items": [
+    {
+      "type": "app",
+      "label": "Audacity",
+      "appName": "Audacity"
+    },
+    {
+      "type": "shortcut",
+      "label": "Play / Stop",
+      "keys": {
+        "mods": [],
+        "key": "space"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Record",
+      "keys": {
+        "mods": [],
+        "key": "r"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Pause",
+      "keys": {
+        "mods": [],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Stop",
+      "keys": {
+        "mods": [],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Skip to start",
+      "keys": {
+        "mods": [],
+        "key": "home"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Skip to end",
+      "keys": {
+        "mods": [],
+        "key": "end"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Select all",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "a"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Trim",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "t"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Silence",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "l"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Split",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "i"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Fit project",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Export",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "e"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Undo",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "z"
+      }
+    }
+  ]
+}

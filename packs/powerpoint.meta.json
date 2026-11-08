@@ -1,0 +1,18 @@
+{
+  "name": "Microsoft PowerPoint",
+  "category": "Microsoft Office",
+  "description": "Keyboard shortcuts and quick actions for Microsoft PowerPoint.",
+  "color": "#C43E1C",
+  "icon": "document",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "PowerPoint",
+    "Microsoft PowerPoint",
+    "POWERPNT"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

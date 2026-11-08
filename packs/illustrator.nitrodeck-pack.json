@@ -1,0 +1,228 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Adobe Illustrator",
+  "items": [
+    {
+      "type": "app",
+      "label": "Illustrator",
+      "appName": "Adobe Illustrator"
+    },
+    {
+      "type": "group",
+      "label": "Tools",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Selection",
+          "keys": {
+            "mods": [],
+            "key": "v"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Direct selection",
+          "keys": {
+            "mods": [],
+            "key": "a"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Pen",
+          "keys": {
+            "mods": [],
+            "key": "p"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Type",
+          "keys": {
+            "mods": [],
+            "key": "t"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Rectangle",
+          "keys": {
+            "mods": [],
+            "key": "m"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Ellipse",
+          "keys": {
+            "mods": [],
+            "key": "l"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Pencil",
+          "keys": {
+            "mods": [],
+            "key": "n"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Brush",
+          "keys": {
+            "mods": [],
+            "key": "b"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Eyedropper",
+          "keys": {
+            "mods": [],
+            "key": "i"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Scale",
+          "keys": {
+            "mods": [],
+            "key": "s"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Rotate",
+          "keys": {
+            "mods": [],
+            "key": "r"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Hand",
+          "keys": {
+            "mods": [],
+            "key": "h"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Undo",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "z"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Group",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "g"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Ungroup",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "g"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Bring to front",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "bracketright"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Send to back",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "bracketleft"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Create outlines",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "o"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Compound path",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "8"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Outline view",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "y"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Hide guides",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "semicolon"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Fit artboard",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "0"
+      }
+    }
+  ]
+}

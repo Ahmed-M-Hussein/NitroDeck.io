@@ -1,0 +1,17 @@
+{
+  "name": "DaVinci Resolve",
+  "category": "Creative",
+  "description": "Keyboard shortcuts and quick actions for DaVinci Resolve.",
+  "color": "#1B1B1B",
+  "icon": "palette",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "DaVinci Resolve",
+    "Resolve"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

@@ -1,0 +1,46 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Todoist",
+  "items": [
+    {
+      "type": "app",
+      "label": "Todoist",
+      "appName": "Todoist"
+    },
+    {
+      "type": "shortcut",
+      "label": "Quick add",
+      "keys": {
+        "mods": [],
+        "key": "q"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Search",
+      "keys": {
+        "mods": [],
+        "key": "slash"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Sidebar",
+      "keys": {
+        "mods": [],
+        "key": "m"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Undo",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "z"
+      }
+    }
+  ]
+}

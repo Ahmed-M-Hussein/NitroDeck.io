@@ -1,0 +1,30 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Steam",
+  "items": [
+    {
+      "type": "app",
+      "label": "Steam",
+      "appName": "Steam"
+    },
+    {
+      "type": "shortcut",
+      "label": "In-game overlay",
+      "keys": {
+        "mods": [
+          "shift"
+        ],
+        "key": "tab"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Screenshot",
+      "keys": {
+        "mods": [],
+        "key": "f12"
+      }
+    }
+  ]
+}

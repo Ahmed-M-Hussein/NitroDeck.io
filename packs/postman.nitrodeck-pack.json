@@ -1,0 +1,134 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Postman",
+  "items": [
+    {
+      "type": "app",
+      "label": "Postman",
+      "appName": "Postman"
+    },
+    {
+      "type": "shortcut",
+      "label": "Send request",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "enter"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "New request",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "New tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "t"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Close tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "w"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Import",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "o"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Search",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "k"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Console",
+      "keys": {
+        "mods": [
+          "primary",
+          "alt"
+        ],
+        "key": "c"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Sidebar",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "backslash"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Settings",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "comma"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous tab",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "tab"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "tab"
+      }
+    }
+  ]
+}

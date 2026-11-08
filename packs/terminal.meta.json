@@ -1,0 +1,19 @@
+{
+  "name": "Windows Terminal",
+  "category": "Development",
+  "description": "Keyboard shortcuts and quick actions for Windows Terminal.",
+  "color": "#333333",
+  "icon": "code",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Terminal",
+    "Windows Terminal",
+    "WindowsTerminal",
+    "wt"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

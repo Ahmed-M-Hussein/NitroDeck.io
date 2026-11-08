@@ -1,0 +1,112 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Zoom",
+  "items": [
+    {
+      "type": "app",
+      "label": "Zoom",
+      "appName": "Zoom"
+    },
+    {
+      "type": "shortcut",
+      "label": "Mute / unmute",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "a"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Video",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "v"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Share screen",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Pause share",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "t"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Record",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "r"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Raise hand",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "y"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Participants",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "u"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Chat",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "h"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Invite",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "i"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Full screen",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "f"
+      }
+    }
+  ]
+}

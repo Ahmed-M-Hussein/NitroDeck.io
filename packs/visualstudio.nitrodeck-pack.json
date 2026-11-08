@@ -1,0 +1,161 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Visual Studio",
+  "items": [
+    {
+      "type": "app",
+      "label": "Visual Studio",
+      "appName": "Visual Studio"
+    },
+    {
+      "type": "shortcut",
+      "label": "Build",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "b"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Go to all",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "t"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Quick actions",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "period"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Go to definition",
+      "keys": {
+        "mods": [],
+        "key": "f12"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Find references",
+      "keys": {
+        "mods": [
+          "shift"
+        ],
+        "key": "f12"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Solution Explorer",
+      "keys": {
+        "mods": [
+          "primary",
+          "alt"
+        ],
+        "key": "l"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Debug",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Start",
+          "keys": {
+            "mods": [],
+            "key": "f5"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Start without debug",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "f5"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Stop",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "f5"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Step over",
+          "keys": {
+            "mods": [],
+            "key": "f10"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Step into",
+          "keys": {
+            "mods": [],
+            "key": "f11"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Step out",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "f11"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Breakpoint",
+          "keys": {
+            "mods": [],
+            "key": "f9"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous editor tab",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "tab"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next editor tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "tab"
+      }
+    }
+  ]
+}

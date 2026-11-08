@@ -1,0 +1,204 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Adobe Premiere Pro",
+  "items": [
+    {
+      "type": "app",
+      "label": "Premiere Pro",
+      "appName": "Adobe Premiere Pro"
+    },
+    {
+      "type": "shortcut",
+      "label": "Play / Pause",
+      "keys": {
+        "mods": [],
+        "key": "space"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Playback",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Play backward",
+          "keys": {
+            "mods": [],
+            "key": "j"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Stop",
+          "keys": {
+            "mods": [],
+            "key": "k"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Play forward",
+          "keys": {
+            "mods": [],
+            "key": "l"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Next edit",
+          "keys": {
+            "mods": [],
+            "key": "down"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Previous edit",
+          "keys": {
+            "mods": [],
+            "key": "up"
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "label": "Tools",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Selection",
+          "keys": {
+            "mods": [],
+            "key": "v"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Razor",
+          "keys": {
+            "mods": [],
+            "key": "c"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Ripple edit",
+          "keys": {
+            "mods": [],
+            "key": "b"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Rate stretch",
+          "keys": {
+            "mods": [],
+            "key": "r"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Slip",
+          "keys": {
+            "mods": [],
+            "key": "y"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Add edit",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "k"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Mark in",
+      "keys": {
+        "mods": [],
+        "key": "i"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Mark out",
+      "keys": {
+        "mods": [],
+        "key": "o"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Ripple delete",
+      "keys": {
+        "mods": [
+          "shift"
+        ],
+        "key": "delete"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Snap",
+      "keys": {
+        "mods": [],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Add marker",
+      "keys": {
+        "mods": [],
+        "key": "m"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Import",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "i"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Export",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "m"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Undo",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Windows Settings",
+  "category": "Windows tools",
+  "description": "Keyboard shortcuts and quick actions for Windows Settings.",
+  "color": "#0F6CBD",
+  "icon": "settings",
+  "platforms": [
+    "windows"
+  ],
+  "match": [
+    "Settings"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

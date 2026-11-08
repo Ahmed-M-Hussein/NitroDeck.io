@@ -1,0 +1,17 @@
+{
+  "name": "Android Studio",
+  "category": "Development",
+  "description": "Keyboard shortcuts and quick actions for Android Studio.",
+  "color": "#3DDC84",
+  "icon": "code",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Android Studio",
+    "studio64"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

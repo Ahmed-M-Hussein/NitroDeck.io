@@ -1,0 +1,166 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Notepad++",
+  "items": [
+    {
+      "type": "app",
+      "label": "Notepad++",
+      "appName": "Notepad++"
+    },
+    {
+      "type": "shortcut",
+      "label": "New",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Open",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "o"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save all",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Find",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Replace",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "h"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Find in files",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Go to line",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "g"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Duplicate line",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "d"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Delete line",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "l"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Toggle comment",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "q"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Upper case",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "u"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Lower case",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "u"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous tab",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "tab"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "tab"
+      }
+    }
+  ]
+}

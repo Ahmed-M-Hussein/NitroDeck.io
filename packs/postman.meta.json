@@ -1,0 +1,16 @@
+{
+  "name": "Postman",
+  "category": "Development",
+  "description": "Keyboard shortcuts and quick actions for Postman.",
+  "color": "#FF6C37",
+  "icon": "code",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Postman"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

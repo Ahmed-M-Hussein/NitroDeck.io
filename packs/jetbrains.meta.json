@@ -1,0 +1,26 @@
+{
+  "name": "JetBrains IDEs",
+  "category": "Development",
+  "description": "Keyboard shortcuts and quick actions for JetBrains IDEs.",
+  "color": "#C2185B",
+  "icon": "code",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "IntelliJ IDEA",
+    "Rider",
+    "PyCharm",
+    "WebStorm",
+    "GoLand",
+    "CLion",
+    "PhpStorm",
+    "idea64",
+    "rider64",
+    "pycharm64",
+    "webstorm64"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

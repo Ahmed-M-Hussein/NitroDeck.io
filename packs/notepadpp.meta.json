@@ -1,0 +1,16 @@
+{
+  "name": "Notepad++",
+  "category": "Development",
+  "description": "Keyboard shortcuts and quick actions for Notepad++.",
+  "color": "#3C8D2F",
+  "icon": "code",
+  "platforms": [
+    "windows"
+  ],
+  "match": [
+    "Notepad++",
+    "notepad++"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

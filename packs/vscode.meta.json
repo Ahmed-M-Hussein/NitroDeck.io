@@ -1,0 +1,17 @@
+{
+  "name": "Visual Studio Code",
+  "category": "Development",
+  "description": "Keyboard shortcuts and quick actions for Visual Studio Code.",
+  "color": "#007ACC",
+  "icon": "code",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Visual Studio Code",
+    "Code"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

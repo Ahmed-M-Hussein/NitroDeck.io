@@ -1,0 +1,158 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Blender",
+  "items": [
+    {
+      "type": "app",
+      "label": "Blender",
+      "appName": "Blender"
+    },
+    {
+      "type": "group",
+      "label": "Transform",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Grab",
+          "keys": {
+            "mods": [],
+            "key": "g"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Rotate",
+          "keys": {
+            "mods": [],
+            "key": "r"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Scale",
+          "keys": {
+            "mods": [],
+            "key": "s"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Extrude",
+          "keys": {
+            "mods": [],
+            "key": "e"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Duplicate",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "d"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Join",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "j"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Loop cut",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "r"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Add object",
+      "keys": {
+        "mods": [
+          "shift"
+        ],
+        "key": "a"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Edit mode",
+      "keys": {
+        "mods": [],
+        "key": "tab"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Select all",
+      "keys": {
+        "mods": [],
+        "key": "a"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Delete",
+      "keys": {
+        "mods": [],
+        "key": "x"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Shading pie",
+      "keys": {
+        "mods": [],
+        "key": "z"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Render",
+      "keys": {
+        "mods": [],
+        "key": "f12"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Play animation",
+      "keys": {
+        "mods": [],
+        "key": "space"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Undo",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "WhatsApp",
+  "items": [
+    {
+      "type": "app",
+      "label": "WhatsApp",
+      "appName": "WhatsApp"
+    },
+    {
+      "type": "shortcut",
+      "label": "New chat",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "New group",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Search",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Archive chat",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "e"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Mute chat",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "m"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Mark unread",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "u"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Delete chat",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "backspace"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Profile",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous chat",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "tab"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next chat",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "tab"
+      }
+    }
+  ]
+}

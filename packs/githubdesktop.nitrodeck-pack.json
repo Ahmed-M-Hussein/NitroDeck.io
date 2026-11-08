@@ -1,0 +1,137 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "GitHub Desktop",
+  "items": [
+    {
+      "type": "app",
+      "label": "GitHub Desktop",
+      "appName": "GitHub Desktop"
+    },
+    {
+      "type": "shortcut",
+      "label": "Commit",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "enter"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Push",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Pull",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Fetch",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "t"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Branches",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "b"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "New branch",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Repositories",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "t"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Changes",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "1"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "History",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "2"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Open in editor",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "a"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Terminal",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "grave"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Show in Explorer",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "f"
+      }
+    }
+  ]
+}

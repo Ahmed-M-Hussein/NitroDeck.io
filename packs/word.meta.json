@@ -1,0 +1,18 @@
+{
+  "name": "Microsoft Word",
+  "category": "Microsoft Office",
+  "description": "Keyboard shortcuts and quick actions for Microsoft Word.",
+  "color": "#2B579A",
+  "icon": "document",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Word",
+    "Microsoft Word",
+    "WINWORD"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

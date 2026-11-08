@@ -1,0 +1,194 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Mozilla Firefox",
+  "items": [
+    {
+      "type": "app",
+      "label": "Firefox",
+      "appName": "Firefox"
+    },
+    {
+      "type": "shortcut",
+      "label": "New tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "t"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Close tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "w"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Reopen tab",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "t"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Private window",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Refresh",
+      "keys": {
+        "mods": [],
+        "key": "f5"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Hard refresh",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "f5"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Address bar",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "l"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Bookmark",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "d"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "DevTools",
+      "keys": {
+        "mods": [],
+        "key": "f12"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Reader view",
+      "keys": {
+        "mods": [],
+        "key": "f9"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Pages",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "History",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "h"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Downloads",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "j"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Library",
+          "keys": {
+            "mods": [
+              "primary",
+              "shift"
+            ],
+            "key": "o"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Find on page",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "f"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Reset zoom",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "0"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Full screen",
+          "keys": {
+            "mods": [],
+            "key": "f11"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous tab",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "tab"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "tab"
+      }
+    }
+  ]
+}

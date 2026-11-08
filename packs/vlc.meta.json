@@ -1,0 +1,18 @@
+{
+  "name": "VLC media player",
+  "category": "Streaming and media",
+  "description": "Keyboard shortcuts and quick actions for VLC media player.",
+  "color": "#FF8800",
+  "icon": "broadcast",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "VLC media player",
+    "VLC",
+    "vlc"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Microsoft Edge",
+  "category": "Browsers",
+  "description": "Keyboard shortcuts and quick actions for Microsoft Edge.",
+  "color": "#0C7FB8",
+  "icon": "globe",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Microsoft Edge",
+    "Edge",
+    "msedge"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

@@ -1,0 +1,209 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Unity",
+  "items": [
+    {
+      "type": "app",
+      "label": "Unity",
+      "appName": "Unity"
+    },
+    {
+      "type": "group",
+      "label": "Tools",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Hand",
+          "keys": {
+            "mods": [],
+            "key": "q"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Move",
+          "keys": {
+            "mods": [],
+            "key": "w"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Rotate",
+          "keys": {
+            "mods": [],
+            "key": "e"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Scale",
+          "keys": {
+            "mods": [],
+            "key": "r"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Rect tool",
+          "keys": {
+            "mods": [],
+            "key": "t"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Transform",
+          "keys": {
+            "mods": [],
+            "key": "y"
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "label": "Play mode",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Play",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "p"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Pause",
+          "keys": {
+            "mods": [
+              "primary",
+              "shift"
+            ],
+            "key": "p"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Step",
+          "keys": {
+            "mods": [
+              "primary",
+              "alt"
+            ],
+            "key": "p"
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "label": "Windows",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Scene view",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "1"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Game view",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "2"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Inspector",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "3"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Hierarchy",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "4"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Project",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "5"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Console",
+          "keys": {
+            "mods": [
+              "primary",
+              "shift"
+            ],
+            "key": "c"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Save scene",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Focus selected",
+      "keys": {
+        "mods": [],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Duplicate",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "d"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Undo",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "z"
+      }
+    }
+  ]
+}

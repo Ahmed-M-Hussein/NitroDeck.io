@@ -1,0 +1,16 @@
+{
+  "name": "ChatGPT",
+  "category": "AI",
+  "description": "Keyboard shortcuts and quick actions for ChatGPT.",
+  "color": "#10A37F",
+  "icon": "sparkle",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "ChatGPT"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

@@ -1,0 +1,116 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "FL Studio",
+  "items": [
+    {
+      "type": "app",
+      "label": "FL Studio",
+      "appName": "FL Studio"
+    },
+    {
+      "type": "shortcut",
+      "label": "Play / Pause",
+      "keys": {
+        "mods": [],
+        "key": "space"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Record",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "r"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Pattern / song mode",
+      "keys": {
+        "mods": [],
+        "key": "l"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Metronome",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "m"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Windows",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Playlist",
+          "keys": {
+            "mods": [],
+            "key": "f5"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Channel rack",
+          "keys": {
+            "mods": [],
+            "key": "f6"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Piano roll",
+          "keys": {
+            "mods": [],
+            "key": "f7"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Mixer",
+          "keys": {
+            "mods": [],
+            "key": "f9"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Browser",
+          "keys": {
+            "mods": [
+              "alt"
+            ],
+            "key": "f8"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Undo",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "z"
+      }
+    }
+  ]
+}

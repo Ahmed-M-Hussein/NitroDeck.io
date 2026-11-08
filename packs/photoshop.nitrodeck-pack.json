@@ -1,0 +1,245 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Adobe Photoshop",
+  "items": [
+    {
+      "type": "app",
+      "label": "Photoshop",
+      "appName": "Adobe Photoshop"
+    },
+    {
+      "type": "group",
+      "label": "Tools",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Move",
+          "keys": {
+            "mods": [],
+            "key": "v"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Brush",
+          "keys": {
+            "mods": [],
+            "key": "b"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Eraser",
+          "keys": {
+            "mods": [],
+            "key": "e"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Lasso",
+          "keys": {
+            "mods": [],
+            "key": "l"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Crop",
+          "keys": {
+            "mods": [],
+            "key": "c"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Eyedropper",
+          "keys": {
+            "mods": [],
+            "key": "i"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Swap colors",
+          "keys": {
+            "mods": [],
+            "key": "x"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Default colors",
+          "keys": {
+            "mods": [],
+            "key": "d"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Undo",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "z"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Step backward",
+      "keys": {
+        "mods": [
+          "primary",
+          "alt"
+        ],
+        "key": "z"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Step forward",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "z"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Export for web",
+      "keys": {
+        "mods": [
+          "primary",
+          "alt",
+          "shift"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "New layer",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Duplicate layer",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "j"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Merge down",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "e"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Group layers",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "g"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Free transform",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "t"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Selection",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Select all",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "a"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Deselect",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "d"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Invert selection",
+          "keys": {
+            "mods": [
+              "primary",
+              "shift"
+            ],
+            "key": "i"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Fit on screen",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "0"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Actual pixels",
+          "keys": {
+            "mods": [
+              "primary",
+              "alt"
+            ],
+            "key": "0"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "FL Studio",
+  "category": "Creative",
+  "description": "Keyboard shortcuts and quick actions for FL Studio.",
+  "color": "#F08A24",
+  "icon": "palette",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "FL Studio",
+    "FL64",
+    "FL Studio 21",
+    "FL Studio 2024"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Cursor",
+  "category": "AI",
+  "description": "Keyboard shortcuts and quick actions for Cursor.",
+  "color": "#3B3B3B",
+  "icon": "sparkle",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Cursor"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

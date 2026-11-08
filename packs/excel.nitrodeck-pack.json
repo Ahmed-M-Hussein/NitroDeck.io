@@ -1,0 +1,214 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Microsoft Excel",
+  "items": [
+    {
+      "type": "app",
+      "label": "Excel",
+      "appName": "Excel"
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Undo",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "z"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Redo",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "y"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "AutoSum",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "equal"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Filter",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "l"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Edit cell",
+      "keys": {
+        "mods": [],
+        "key": "f2"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Absolute ref",
+      "keys": {
+        "mods": [],
+        "key": "f4"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Fill down",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "d"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Format",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Format cells",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "1"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Currency",
+          "keys": {
+            "mods": [
+              "primary",
+              "shift"
+            ],
+            "key": "4"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Percent",
+          "keys": {
+            "mods": [
+              "primary",
+              "shift"
+            ],
+            "key": "5"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Bold",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "b"
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "label": "Rows and sheets",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Insert cells",
+          "keys": {
+            "mods": [
+              "primary",
+              "shift"
+            ],
+            "key": "equal"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Delete cells",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "minus"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Select column",
+          "keys": {
+            "mods": [
+              "primary"
+            ],
+            "key": "space"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Select row",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "space"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "New sheet",
+          "keys": {
+            "mods": [
+              "shift"
+            ],
+            "key": "f11"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous sheet",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "pageup"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next sheet",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "pagedown"
+      }
+    }
+  ]
+}

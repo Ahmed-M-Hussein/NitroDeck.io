@@ -1,0 +1,149 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Unreal Engine",
+  "items": [
+    {
+      "type": "app",
+      "label": "Unreal Engine",
+      "appName": "Unreal Editor"
+    },
+    {
+      "type": "group",
+      "label": "Tools",
+      "items": [
+        {
+          "type": "shortcut",
+          "label": "Select",
+          "keys": {
+            "mods": [],
+            "key": "q"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Move",
+          "keys": {
+            "mods": [],
+            "key": "w"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Rotate",
+          "keys": {
+            "mods": [],
+            "key": "e"
+          }
+        },
+        {
+          "type": "shortcut",
+          "label": "Scale",
+          "keys": {
+            "mods": [],
+            "key": "r"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shortcut",
+      "label": "Play",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Stop",
+      "keys": {
+        "mods": [],
+        "key": "escape"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Eject",
+      "keys": {
+        "mods": [],
+        "key": "f8"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Save all",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "s"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Content browser",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "space"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Focus selected",
+      "keys": {
+        "mods": [],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Duplicate",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "w"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Game view",
+      "keys": {
+        "mods": [],
+        "key": "g"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Console",
+      "keys": {
+        "mods": [],
+        "key": "grave"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Compile Blueprint",
+      "keys": {
+        "mods": [],
+        "key": "f7"
+      }
+    }
+  ]
+}

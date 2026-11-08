@@ -1,0 +1,166 @@
+{
+  "format": "nitrodeck-pack",
+  "version": 1,
+  "title": "Obsidian",
+  "items": [
+    {
+      "type": "app",
+      "label": "Obsidian",
+      "appName": "Obsidian"
+    },
+    {
+      "type": "shortcut",
+      "label": "Quick switcher",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "o"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Command palette",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "p"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "New note",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "n"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Search vault",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "f"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Edit / read mode",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "e"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Bold",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "b"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Italic",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "i"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Insert link",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "k"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Toggle checkbox",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "enter"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Follow link",
+      "keys": {
+        "mods": [
+          "alt"
+        ],
+        "key": "enter"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Settings",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "comma"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Back",
+      "keys": {
+        "mods": [
+          "primary",
+          "alt"
+        ],
+        "key": "left"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Forward",
+      "keys": {
+        "mods": [
+          "primary",
+          "alt"
+        ],
+        "key": "right"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Previous tab",
+      "keys": {
+        "mods": [
+          "primary",
+          "shift"
+        ],
+        "key": "tab"
+      }
+    },
+    {
+      "type": "shortcut",
+      "label": "Next tab",
+      "keys": {
+        "mods": [
+          "primary"
+        ],
+        "key": "tab"
+      }
+    }
+  ]
+}

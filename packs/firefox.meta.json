@@ -1,0 +1,17 @@
+{
+  "name": "Mozilla Firefox",
+  "category": "Browsers",
+  "description": "Keyboard shortcuts and quick actions for Mozilla Firefox.",
+  "color": "#E66000",
+  "icon": "globe",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Firefox",
+    "Mozilla Firefox"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}

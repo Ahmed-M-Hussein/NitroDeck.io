@@ -1,0 +1,16 @@
+{
+  "name": "Notion",
+  "category": "Notes and documents",
+  "description": "Keyboard shortcuts and quick actions for Notion.",
+  "color": "#2B2B2B",
+  "icon": "notes",
+  "platforms": [
+    "windows",
+    "mac"
+  ],
+  "match": [
+    "Notion"
+  ],
+  "author": "NitroDeck",
+  "official": true
+}
