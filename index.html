@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NitroDeck — Your work, one tap away</title>
+  <meta name="description" content="Turn your tablet into a personal control deck for Mac and Windows. Launch apps, organize workflows, control creative tools, and share files between computers.">
+  <meta name="theme-color" content="#0b0e14">
+  <link rel="icon" href="assets/appIcon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top"><img src="assets/appIcon.png" alt="">NitroDeck</a>
+    <nav class="nav-links" id="navlinks" aria-label="Sections">
+      <a href="#features">Features</a>
+      <a href="#use-cases">For your work</a>
+      <a href="#apps">Your devices</a>
+      <a href="#start">Get started</a>
+      <a href="#faq-section">FAQ</a>
+    </nav>
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle light and dark theme">◐</button>
+    <button class="icon-btn burger" id="burger" aria-label="Menu" aria-expanded="false">☰</button>
+  </div>
+  <div class="progress-bar" id="pbar"></div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Tap. Boost. Done.</span>
+      <h1>Less busywork.<br>More <span class="grad">momentum.</span></h1>
+      <p class="lede">Put your everyday tools within reach. NitroDeck turns your iPad or Android tablet into a personal control deck for Mac and Windows: launch apps, run routines, control your workspace, and share files from one place.</p>
+      <div class="cta">
+        <a class="btn primary" href="#start">Find your setup →</a>
+        <a class="btn" href="#features">Explore features</a>
+      </div>
+      <div class="typed" id="typed" aria-live="off"></div>
+      <div class="stats" style="margin-top:28px">
+        <div class="stat"><b>One tap</b><span>for everyday actions</span></div>
+        <div class="stat"><b>Your way</b><span>personal layouts</span></div>
+        <div class="stat"><b>Mac + PC</b><span>one workspace</span></div>
+      </div>
+    </div>
+    <div class="device" id="device" aria-label="Animated preview of a NitroDeck screen">
+      <div class="device-top"><div class="dots"><i></i><i></i><i></i></div><span>NITRODECK · HOME</span><span class="live"><b></b>2 connected</span></div>
+      <div class="deck" id="heroDeck"></div>
+      <div class="banner" id="heroBanner">Interactive preview · Try a tile.</div>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="alt">
+  <div class="wrap">
+    <span class="eyebrow">Built around your day</span>
+    <h2>Small actions. A smoother workday.</h2>
+    <p class="lede">Keep the things you do most in one familiar place, with controls that fit your work.</p>
+    <div class="search"><input id="fsearch" type="search" placeholder="Find a feature: files, meetings, media…" aria-label="Search product features"></div>
+    <div class="chips" id="fchips" aria-label="Feature categories"></div>
+    <div class="fgrid" id="fgrid"></div>
+    <p class="hint" id="featureCount" role="status"></p>
+  </div>
+</section>
+<section id="use-cases">
+  <div class="wrap">
+    <span class="eyebrow">For your work</span>
+    <h2>A deck for every part of your day.</h2>
+    <p class="lede">Build a workspace around what you need to accomplish. Switch profiles when the work changes.</p>
+    <div class="fgrid" id="useCases"></div>
+  </div>
+</section>
+<section id="apps" class="alt">
+  <div class="wrap">
+    <span class="eyebrow">Your devices, working together</span>
+    <h2>A tablet on your desk. Your computers in reach.</h2>
+    <p class="lede">Use the mobile app as your control surface and the companion app on each computer you want to control. Connect up to four computers and combine their controls in one profile.</p>
+    <div class="fgrid" id="appCards"></div>
+    <p class="hint">Features vary by desktop platform. The Mac companion supports managed AI assistants and USB connections; Windows supports desktop controls, workflows, media, OBS, and file sharing.</p>
+  </div>
+</section>
+<section id="customize">
+  <div class="wrap">
+    <span class="eyebrow">Make it yours</span>
+    <h2>Your tools. Your layout. Your rhythm.</h2>
+    <p class="lede">Choose tile names, icons, colours, and sizes. Organize related controls into groups, create profiles for different tasks, and choose a light or dark appearance that suits your desk.</p>
+    <div class="fgrid">
+      <article class="card"><h3>Start with familiar tools</h3><p>Use shortcut packs for creative apps, browsers, meetings, and media. Add the controls you already reach for.</p></article>
+      <article class="card"><h3>Build useful routines</h3><p>Bring repeated actions together in workflows. Follow progress, queue the next task, and schedule routines for later.</p></article>
+      <article class="card"><h3>Stay in control</h3><p>See which computer a control belongs to and when it is unavailable. Keep separate profiles for focus, presentations, and creative work.</p></article>
+    </div>
+  </div>
+</section>
+<section id="security" class="alt">
+  <div class="wrap">
+    <span class="eyebrow">Confidence at your desk</span>
+    <h2>You choose what connects and what is shared.</h2>
+    <div class="fgrid">
+      <article class="card"><h3>Pair devices you trust</h3><p>Approve the connection between your tablet and computer. Review paired devices and revoke access when you need to.</p></article>
+      <article class="card"><h3>Share on your terms</h3><p>File transfer and shared clipboard are opt-in. Enable them on the computers you want to use together.</p></article>
+      <article class="card"><h3>Keep credentials on your computer</h3><p>Integration credentials stay with the desktop companion. Connected services and AI providers use their own accounts and terms.</p></article>
+    </div>
+  </div>
+</section>
+<section id="start">
+  <div class="wrap">
+    <span class="eyebrow">Get started</span>
+    <h2>Make room for a better workflow.</h2>
+    <p class="lede">Choose your devices, connect them, and build your first deck.</p>
+    <div class="fgrid">
+      <article class="card"><span class="eyebrow">01 · Choose</span><h3>Get the apps for your devices</h3><p>You need the NitroDeck mobile app for your tablet and the companion app for your Mac or Windows computer. Check the release page for available builds.</p></article>
+      <article class="card"><span class="eyebrow">02 · Connect</span><h3>Pair your tablet and computer</h3><p>Open the companion app and use its pairing details to connect your tablet. Approve access on your computer.</p></article>
+      <article class="card"><span class="eyebrow">03 · Personalize</span><h3>Add your everyday controls</h3><p>Start with a few favourite apps and shortcuts. Add profiles, workflows, and other computers as your deck grows.</p></article>
+    </div>
+    <div class="cta" style="margin-top:28px"><a class="btn primary" href="https://github.com/Ahmed-M-Hussein/NitroDeck/releases" rel="noopener">View available releases →</a><a class="btn" href="#faq-section">Before you get started</a></div>
+    <p class="hint">Availability and installation options depend on the platform and release. Some integrations require a separate account, subscription, or compatible device.</p>
+  </div>
+</section>
+<section id="faq-section" class="alt">
+  <div class="wrap"><span class="eyebrow">Good to know</span><h2>Before your first tap.</h2><div id="faq"></div></div>
+</section>
+</main>
+<footer><div class="wrap"><span>NitroDeck · Your work, one tap away.</span><span><a href="#features">Features</a> · <a href="#start">Get started</a> · <a href="#faq-section">FAQ</a></span></div></footer>
+<button class="icon-btn to-top" id="toTop" aria-label="Back to top">↑</button>
+<script src="data.js"></script><script src="app.js"></script>
+</body></html>
