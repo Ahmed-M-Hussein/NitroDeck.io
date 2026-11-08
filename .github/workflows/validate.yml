@@ -2,8 +2,7 @@ name: Validate packs
 
 on:
   pull_request:
-  push:
-    branches: [main]
+    paths: ['packs/**', 'tools/**']
 
 permissions:
   contents: read
@@ -16,5 +15,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Validate packs and check catalog.json is current
-        run: node tools/build-catalog.mjs --check
+      - name: Validate every pack
+        run: node tools/build-catalog.mjs --validate

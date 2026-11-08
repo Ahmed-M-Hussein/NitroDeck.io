@@ -1,5 +1,8 @@
 // Validates every pack in packs/ against the pack marketplace contract and writes catalog.json.
-// Usage: node tools/build-catalog.mjs [--check]   (--check validates and fails if catalog.json is out of date)
+// Usage: node tools/build-catalog.mjs [--check | --validate]
+//   (no flag)   validate and rewrite catalog.json
+//   --check     validate and fail if catalog.json is out of date
+//   --validate  validate only, never touches catalog.json (used for pull requests)
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
@@ -8,6 +11,7 @@ import { resolve, dirname } from 'node:path';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const dir = resolve(root, 'packs');
 const check = process.argv.includes('--check');
+const validateOnly = process.argv.includes('--validate');
 
 const CATEGORIES = ['Development', 'Creative', 'Gaming and chat', 'Microsoft Office', 'Notes and documents', 'Windows tools', 'Browsers', 'AI', 'Streaming and media', 'Game development', 'Community'];
 const TYPES = new Set(['app', 'obs', 'gaming', 'system', 'stats', 'metric', 'media', 'notes', 'group', 'shortcut']);
@@ -85,6 +89,7 @@ for (const file of files) {
 }
 if (errors.length) { console.error(`Catalog invalid:\n- ${errors.join('\n- ')}`); process.exit(1); }
 
+if (validateOnly) { console.log(`Validated ${packs.length} packs.`); process.exit(0); }
 const next = JSON.stringify({ version: 1, packs }, null, 2) + '\n';
 const target = resolve(root, 'catalog.json');
 if (check) {

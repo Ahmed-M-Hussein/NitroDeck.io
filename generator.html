@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NitroDeck Pack Generator — build a pack in your browser</title>
+  <meta name="description" content="Build a NitroDeck pack with shortcuts, groups and an app launcher. Live validation, instant preview, and a ready-to-submit pack file.">
+  <meta name="theme-color" content="#0b0e14">
+  <link rel="icon" href="assets/appIcon.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="marketplace.css">
+  <link rel="stylesheet" href="generator.css">
+</head>
+<body>
+<header class="nav stuck" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="./"><img src="assets/appIcon.png" alt="">NitroDeck</a>
+    <nav class="nav-links" aria-label="Site">
+      <a href="./">Home</a>
+      <a href="marketplace.html">Packs</a>
+      <a href="generator.html" class="on" aria-current="page">Pack generator</a>
+    </nav>
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle light and dark theme">◐</button>
+  </div>
+</header>
+
+<main>
+  <section class="mp-hero">
+    <div class="wrap">
+      <span class="eyebrow">Pack generator</span>
+      <h1>Build a pack for <span class="grad">any app.</span></h1>
+      <p class="lede">Add shortcuts and groups, watch the deck take shape, then download the files or open a pull request. Everything runs in your browser. Nothing is uploaded until you choose to submit.</p>
+    </div>
+  </section>
+
+  <section class="gen">
+    <div class="wrap gen-grid">
+      <div class="gen-col">
+        <div class="gen-card">
+          <h2>1. About the pack</h2>
+          <div class="gen-fields">
+            <label>App or pack name<input id="name" maxlength="60" placeholder="Affinity Photo" autocomplete="off"></label>
+            <label>Pack id<input id="id" maxlength="48" placeholder="affinity-photo" autocomplete="off" spellcheck="false"></label>
+            <label class="wide">Short description<input id="desc" maxlength="200" placeholder="Layers, selections and view shortcuts." autocomplete="off"></label>
+            <label>Category<select id="cat"></select></label>
+            <label>Colour<input id="color" type="color" value="#365f9a"></label>
+            <label>Your GitHub name<input id="author" maxlength="60" placeholder="your-github-name" autocomplete="off"></label>
+            <label>Name of the app to launch<input id="appName" maxlength="120" placeholder="Same as above, or leave empty" autocomplete="off"></label>
+            <fieldset class="wide"><legend>Works on</legend>
+              <label class="inline"><input type="checkbox" id="pMac" checked> Mac</label>
+              <label class="inline"><input type="checkbox" id="pWin" checked> Windows</label>
+            </fieldset>
+          </div>
+        </div>
+
+        <div class="gen-card">
+          <h2>2. Controls</h2>
+          <p class="gen-hint">Each shortcut sends keys to the app that is in front. <b>Ctrl/⌘</b> means Ctrl on Windows and Command on Mac. Use <b>Record</b> and press the keys, or set them by hand.</p>
+          <div id="items" class="gen-items"></div>
+          <div class="gen-add">
+            <button type="button" class="btn" id="addShortcut">+ Shortcut</button>
+            <button type="button" class="btn" id="addGroup">+ Group</button>
+            <label class="btn gen-file">Import a pack file<input type="file" id="importFile" accept=".json,application/json" hidden></label>
+          </div>
+        </div>
+      </div>
+
+      <div class="gen-col gen-sticky">
+        <div class="gen-card">
+          <h2>Preview</h2>
+          <div class="mp-tiles gen-preview" id="preview"></div>
+          <p class="gen-count" id="count" role="status" aria-live="polite"></p>
+        </div>
+        <div class="gen-card">
+          <h2>3. Check and submit</h2>
+          <ul class="gen-problems" id="problems" aria-live="polite"></ul>
+          <div class="mp-actions">
+            <button type="button" class="btn primary" id="dlPack">Download pack file</button>
+            <button type="button" class="btn" id="dlMeta">Download details file</button>
+          </div>
+          <div class="mp-actions">
+            <a class="btn" id="pr" href="#" target="_blank" rel="noopener">Open pull request on GitHub</a>
+            <button type="button" class="btn" id="copy">Copy pack JSON</button>
+          </div>
+          <p class="mp-note" id="prNote">Complete the form to enable submitting.</p>
+          <details class="gen-details"><summary>Show the files</summary>
+            <h3 class="mp-h3"><code id="packName">pack</code></h3>
+            <pre id="packJson" class="gen-code"></pre>
+            <h3 class="mp-h3"><code id="metaName">details</code></h3>
+            <pre id="metaJson" class="gen-code"></pre>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="mp-foot"><div class="wrap">Packs only contain safe, typed controls. Scripts and commands are never allowed. The catalog is rebuilt automatically after your pull request is merged.</div></footer>
+<script src="generator.js"></script>
+</body>
+</html>

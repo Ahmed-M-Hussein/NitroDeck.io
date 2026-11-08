@@ -50,12 +50,18 @@ Rules, all checked automatically:
 
 Use the `Community` category for new packs. `official` is reserved for NitroDeck packs and is ignored on community submissions.
 
-## Check it and send it
+## Easiest way: the pack generator
+
+Open `generator.html` (linked from the Packs page), fill in the form, add your shortcuts and download the two files. Then use the GitHub upload button on that page to drop them into `packs/` and open a pull request. The generator checks every rule above as you type.
+
+## By hand
+
+Check your files, then open a pull request that adds both of them:
 
 ```bash
-node tools/build-catalog.mjs
+node tools/build-catalog.mjs --validate
 ```
 
-This validates every pack and rewrites `catalog.json`. Commit `catalog.json` with your pack, then open a pull request. The "Validate packs" check runs the same script and fails if `catalog.json` is out of date.
+You do not need to update `catalog.json`. A workflow rebuilds it after your pull request is merged. The "Validate packs" check runs the same validation on your pull request.
 
 Reviewers look for: shortcuts that really exist in the app, clear labels, and no surprises. Please test the pack in NitroDeck on at least one platform first.
