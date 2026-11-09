@@ -6,7 +6,7 @@ Live: https://ahmed-m-hussein.github.io/NitroDeck.io/
 
 Preview locally: `python -m http.server 8765` in this folder.
 
-The full written reference is in [docs/feature-guide.md](docs/feature-guide.md).
+The homepage (`index.html`) is a short overview. Every feature, with search, is on `features.html`. Media lives in `assets/media/`. The full written reference is in [docs/feature-guide.md](docs/feature-guide.md).
 
 ## Packs marketplace
 
