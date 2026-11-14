@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NitroDeck — Your desk, one tap away</title>
-  <meta name="description" content="Turn your iPad or Android tablet into a control deck for your Mac and PC. One tap runs apps, routines and AI approvals.">
+  <meta name="description" content="Turn your iPad or Android tablet into a command center for your Mac and PC. Launch, run, mute and ship with one tap.">
   <meta name="theme-color" content="#0b0e14">
   <meta property="og:title" content="NitroDeck — Your desk, one tap away">
   <meta property="og:description" content="Your tablet, a control deck for your Mac and PC.">
@@ -19,14 +19,21 @@
 <header class="nav" id="nav">
   <div class="wrap nav-in">
     <a class="brand" href="#top"><img src="assets/appIcon.png" alt="">NitroDeck</a>
-    <nav class="nav-links" id="navlinks" aria-label="Site">
-      <a href="#features">Features</a>
-      <a href="#demo">Demo</a>
-      <a href="#packs">Packs</a>
-      <a href="#start">Get started</a>
+    <nav class="nav-links" id="navlinks" aria-label="Site" data-i18n-attr="aria-label=nav.label">
+      <a href="#features" data-i18n="nav.features">Features</a>
+      <a href="#companion" data-i18n="nav.companion">Companion app</a>
+      <a href="#map" data-i18n="nav.map">Feature map</a>
+      <a href="#business" data-i18n="nav.business">For teams</a>
+      <a href="#demo" data-i18n="nav.demo">Demo</a>
+      <a href="#packs" data-i18n="nav.packs">Packs</a>
     </nav>
-    <button class="icon-btn" id="themeBtn" aria-label="Toggle light and dark theme">◐</button>
-    <a class="btn primary nav-cta" href="#start">Get started</a>
+    <div class="lang" role="group" aria-label="Language" data-i18n-attr="aria-label=lang.label">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+      <button type="button" data-lang="ar" aria-pressed="false" lang="ar">عربي</button>
+    </div>
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle light and dark theme" data-i18n-attr="aria-label=nav.theme">◐</button>
+    <a class="btn primary nav-cta" href="#start" data-i18n="cta.start">Get started</a>
   </div>
   <div class="progress-bar" id="pbar"></div>
 </header>
@@ -37,200 +44,297 @@
   <section class="h-hero">
     <div class="wrap h-hero-in">
       <div class="h-hero-copy">
-        <span class="eyebrow rise" style="--i:0">Tablet control deck</span>
-        <h1 class="rise" style="--i:1">Your desk,<br><span class="grad">one tap away.</span></h1>
-        <p class="h-lede rise" style="--i:2">Turn your iPad or Android tablet into a control deck for your Mac and PC.</p>
+        <span class="eyebrow rise" style="--i:0" data-i18n="hero.eyebrow">Your tablet. Your control deck.</span>
+        <h1 class="rise" style="--i:1"><span data-i18n="hero.h1a">Your desk,</span><br><span class="grad" data-i18n="hero.h1b">one tap away.</span></h1>
+        <p class="h-lede rise" style="--i:2" data-i18n="hero.lede">Turn any iPad or Android tablet into a command center for your Mac and PC. Launch, run, mute and ship with one tap.</p>
         <div class="cta rise" style="--i:3">
-          <a class="btn primary" href="#start">Get started</a>
-          <a class="btn" href="#demo"><span class="play-dot" aria-hidden="true"></span>Watch the demo</a>
+          <a class="btn primary" href="#start" data-i18n="cta.start">Get started</a>
+          <a class="btn" href="#demo"><span class="play-dot" aria-hidden="true"></span><span data-i18n="hero.watch">Watch the demo</span></a>
         </div>
-        <p class="h-meta rise" style="--i:4">iPad · Android · macOS · Windows</p>
+        <p class="h-meta rise" style="--i:4" data-i18n="hero.platforms">iPad · Android · macOS · Windows</p>
       </div>
 
       <div class="h-hero-art rise" style="--i:2">
         <div class="tablet" id="tilt">
-          <img src="assets/media/shot-home.jpg" width="1100" height="1000" alt="NitroDeck home screen with build, test, lint and deploy tiles">
+          <div class="deckui" data-profile="dev" role="img" aria-label="NitroDeck home screen with build, test and deploy tiles, system widgets, sliders and a Git summary" data-i18n-attr="aria-label=hero.deckalt"></div>
         </div>
-        <div class="chip chip-a"><span class="spin"></span><b>Build and ship</b><small>running</small></div>
-        <div class="chip chip-b"><span class="ok">✓</span><b>Run tests</b><small>passed</small></div>
-        <div class="chip chip-c"><span class="ai-dot"></span><b>Codex</b><small>needs approval</small></div>
+        <div class="chip chip-a"><span class="spin"></span><b data-i18n="chip.build">Build and ship</b><small data-i18n="chip.running">running</small></div>
+        <div class="chip chip-b"><span class="ok">✓</span><b data-i18n="chip.tests">Run tests</b><small data-i18n="chip.passed">passed</small></div>
+        <div class="chip chip-c"><span class="ai-dot"></span><b>Codex</b><small data-i18n="chip.approval">needs approval</small></div>
       </div>
     </div>
   </section>
 
   <!-- 2. Marquee of pack names (filled from catalog.json) -->
-  <div class="marquee" aria-label="Works with the apps you use" id="marquee">
+  <div class="marquee" aria-label="Works with the apps you use" data-i18n-attr="aria-label=marquee.label" id="marquee">
     <div class="marquee-track" id="marqueeTrack">
       <span>Visual Studio Code</span><span>Figma</span><span>Photoshop</span><span>OBS Studio</span><span>Slack</span><span>Zoom</span><span>Spotify</span><span>Blender</span>
     </div>
   </div>
 
-  <!-- 3. Features: one row each -->
-  <section id="features">
+  <!-- 3. How a tap works -->
+  <section id="how">
     <div class="wrap">
       <header class="h-head reveal">
-        <span class="eyebrow">What it does</span>
-        <h2>Four things, done well.</h2>
+        <span class="eyebrow" data-i18n="how.eyebrow">How it works</span>
+        <h2 data-i18n="how.h2">One tap. Four steps. Zero friction.</h2>
+        <p class="h-sub" data-i18n="how.sub">Your tablet is the remote. A small companion app on your computer does the work, privately on your own network.</p>
+      </header>
+      <ol class="flow reveal" aria-label="What happens when you tap a tile" data-i18n-attr="aria-label=how.label">
+        <li><span class="fi">1</span><h3 data-i18n="how.1t">Tap</h3><p data-i18n="how.1p">Hit a tile on your tablet to open an app, press keys, run a command or start a workflow.</p></li>
+        <li><span class="fi">2</span><h3 data-i18n="how.2t">Secure hop</h3><p data-i18n="how.2p">Your tablet talks to your computer over Wi-Fi, VPN or USB (Mac). The link is locked to the computer you paired.</p></li>
+        <li><span class="fi">3</span><h3 data-i18n="how.3t">Verified</h3><p data-i18n="how.3p">The companion app checks the device is trusted, the profile is allowed and the action is in its own layout.</p></li>
+        <li><span class="fi">4</span><h3 data-i18n="how.4t">Done</h3><p data-i18n="how.4p">It runs locally and the result lights up the tile: running, passed or failed.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 4. Features -->
+  <section id="features" class="alt">
+    <div class="wrap">
+      <header class="h-head reveal">
+        <span class="eyebrow" data-i18n="feat.eyebrow">What you get</span>
+        <h2 data-i18n="feat.h2">Four superpowers.</h2>
+        <p class="h-sub" data-i18n="feat.sub">The core of NitroDeck, and what each one does for your day.</p>
       </header>
 
       <article class="feat">
         <div class="feat-copy reveal">
           <span class="num">01</span>
-          <h3>Tap to run the real thing</h3>
-          <p>Every tile launches an app, shortcut or command on your computer and shows live status.</p>
+          <h3 data-i18n="f1.t">Tap. It happens.</h3>
+          <p data-i18n="f1.p">Every tile launches an app, fires a shortcut or runs a command on your computer, then shows the result right on the tile. Group tiles into profiles for each kind of work and let the deck follow the app you're in.</p>
           <ul class="ticks">
-            <li>16 tile types, plus widgets</li>
-            <li>Sliders and dials for volume, brightness and more</li>
-            <li>Profiles that follow your front app</li>
+            <li data-i18n="f1.b1">16 tile types, plus live widgets</li>
+            <li data-i18n="f1.b2">Sliders and dials for volume, brightness and more</li>
+            <li data-i18n="f1.b3">Profiles that switch with your front app</li>
           </ul>
         </div>
-        <figure class="shot reveal d1"><img loading="lazy" src="assets/media/shot-home.jpg" width="1100" height="1000" alt="Deck of tiles with live build, test and lint status"></figure>
+        <figure class="shot shot-deck reveal d1"><div class="deckui" data-profile="creative" data-switch role="img" aria-label="NitroDeck profiles for developer, creative and meetings, switching with the front app" data-i18n-attr="aria-label=f1.deckalt"></div><figcaption data-i18n="f1.cap">Tap a profile, or watch it follow the front app.</figcaption></figure>
       </article>
 
       <article class="feat flip">
         <div class="feat-copy reveal">
           <span class="num">02</span>
-          <h3>Chain steps into routines</h3>
-          <p>Group repeated actions into a workflow. Watch each step and queue the next one.</p>
+          <h3 data-i18n="f2.t">Turn routines into one tap</h3>
+          <p data-i18n="f2.p">Chain steps into a workflow, such as typecheck, test, build, with typed variables where you need them. Start it from a tile, watch each step live, queue the next run or schedule it for later.</p>
           <ul class="ticks">
-            <li>Live progress, logs and a reply box</li>
-            <li>Schedule a routine for later</li>
-            <li>History of every run and who started it</li>
+            <li data-i18n="f2.b1">Live progress, logs and a reply box</li>
+            <li data-i18n="f2.b2">Schedule once or on repeat</li>
+            <li data-i18n="f2.b3">Full run history with owner and timings</li>
           </ul>
         </div>
-        <figure class="shot reveal d1"><img loading="lazy" src="assets/media/shot-queue.jpg" width="1100" height="1000" alt="Queue showing a build workflow with typecheck, test and build steps"></figure>
+        <figure class="shot reveal d1"><img loading="lazy" src="assets/media/shot-queue.jpg" width="1100" height="1000" alt="Queue showing a build workflow with typecheck, test and build steps" data-i18n-attr="alt=f2.alt"></figure>
       </article>
 
       <article class="feat">
         <div class="feat-copy reveal">
           <span class="num">03</span>
-          <h3>Approve AI before it runs</h3>
-          <p>Assistants propose a fix and the command. You approve or deny from the tablet.</p>
+          <h3 data-i18n="f3.t">AI proposes. You approve.</h3>
+          <p data-i18n="f3.p">Choose from 19 assistants and providers, from local tools like Codex and Claude Code to hosted APIs. See the plan and the exact command first, and nothing runs until you say so. Keys and logins stay on your computer.</p>
           <ul class="ticks">
-            <li>Approve once, or reject</li>
-            <li>Works with local CLI assistants on Mac</li>
-            <li>Credentials stay on your computer</li>
+            <li data-i18n="f3.b1">Approve once, or reject</li>
+            <li data-i18n="f3.b2">Local CLIs, hosted APIs and local runtimes</li>
+            <li data-i18n="f3.b3">Credentials stay on your computer</li>
           </ul>
         </div>
-        <figure class="shot reveal d1"><img loading="lazy" src="assets/media/shot-ai.jpg" width="1100" height="1000" alt="AI approval prompt asking to run a lint fix"></figure>
+        <figure class="shot reveal d1"><img loading="lazy" src="assets/media/shot-ai.jpg" width="1100" height="1000" alt="AI approval prompt asking to run a lint fix" data-i18n-attr="alt=f3.alt"></figure>
       </article>
 
       <article class="feat flip">
         <div class="feat-copy reveal">
           <span class="num">04</span>
-          <h3>Control up to four computers</h3>
-          <p>Pair by QR code over Wi-Fi, VPN or USB. Mix their controls in one profile.</p>
+          <h3 data-i18n="f4.t">Four computers. One tablet.</h3>
+          <p data-i18n="f4.p">Pair each computer once with a QR code. Then one profile can mix tiles from your Mac, your Windows PC and more, and every tile shows which computer owns it and whether it's online.</p>
           <ul class="ticks">
-            <li>See which computer owns each tile</li>
-            <li>Revoke any device at any time</li>
-            <li>File sharing and clipboard are opt-in</li>
+            <li data-i18n="f4.b1">See which computer owns each tile</li>
+            <li data-i18n="f4.b2">Revoke any device, any time</li>
+            <li data-i18n="f4.b3">File and clipboard sharing, opt-in</li>
           </ul>
         </div>
-        <figure class="shot reveal d1"><img loading="lazy" src="assets/media/shot-devices.jpg" width="1100" height="1000" alt="Connection screen listing paired Macs"></figure>
+        <figure class="shot reveal d1"><img loading="lazy" src="assets/media/shot-devices.jpg" width="1100" height="1000" alt="Connection screen listing paired Macs" data-i18n-attr="alt=f4.alt"></figure>
       </article>
 
       <div class="more reveal">
-        <h3>And more</h3>
+        <h3 data-i18n="more.t">And there's more</h3>
         <ul>
-          <li><i>◐</i>4 themes</li>
-          <li><i>⇄</i>File sharing</li>
-          <li><i>⌘</i>Shortcut packs</li>
-          <li><i>⏱</i>Schedules</li>
-          <li><i>▤</i>Backups</li>
-          <li><i>▶</i>OBS and media</li>
+          <li><i>◐</i><span data-i18n="more.1">4 themes</span></li>
+          <li><i>⇄</i><span data-i18n="more.2">File sharing</span></li>
+          <li><i>⌘</i><span data-i18n="more.3">Shortcut packs</span></li>
+          <li><i>⏱</i><span data-i18n="more.4">Schedules</span></li>
+          <li><i>▤</i><span data-i18n="more.5">Backups</span></li>
+          <li><i>▶</i><span data-i18n="more.6">OBS and media</span></li>
         </ul>
-        <a class="link" href="features.html">Explore every feature →</a>
+        <a class="link" href="features.html" data-i18n="more.link">Explore every feature →</a>
       </div>
     </div>
   </section>
 
-  <!-- 4. Demo video -->
+  <!-- 5. Companion apps -->
+  <section id="companion">
+    <div class="wrap">
+      <header class="h-head reveal">
+        <span class="eyebrow" data-i18n="comp.eyebrow">Companion app</span>
+        <h2 data-i18n="comp.h2">The brain on your computer.</h2>
+        <p class="h-sub" data-i18n="comp.sub">Install it on each Mac or Windows PC you want to control. It shows your pairing code, builds your profiles and keeps setup private.</p>
+      </header>
+      <div class="comp reveal">
+        <div class="comp-tabs" role="tablist" aria-label="Companion app screens" data-i18n-attr="aria-label=comp.tabs">
+          <button role="tab" aria-selected="true" data-img="assets/media/agent-windows-profiles.jpg" data-altkey="comp.alt1">
+            <b data-i18n="comp.t1">Profiles</b><span data-i18n="comp.d1">Arrange tiles, groups and widgets, and drag controls in from the library. Changes reach your tablet instantly.</span>
+          </button>
+          <button role="tab" aria-selected="false" data-img="assets/media/agent-windows-ai.jpg" data-altkey="comp.alt2">
+            <b data-i18n="comp.t2">AI assistants</b><span data-i18n="comp.d2">Set up any of 19 assistants. Connections and keys stay on this PC; only the conversation reaches your tablet.</span>
+          </button>
+          <div class="comp-note">
+            <b data-i18n="comp.nt">Also in the app</b>
+            <span data-i18n="comp.nd">Projects, workflows, queue, app launcher, commands, integrations, permissions and backup.</span>
+          </div>
+        </div>
+        <figure class="win">
+          <div class="win-bar" aria-hidden="true"><i></i><i></i><i></i><span>NitroDeck Agent · Windows</span></div>
+          <img id="compImg" src="assets/media/agent-windows-profiles.jpg" width="1600" height="1124" alt="Windows companion app Profiles page with a tile layout and control library" data-i18n-attr="alt=comp.alt1">
+        </figure>
+      </div>
+      <ul class="os-row reveal">
+        <li><b>Windows</b><span data-i18n="os.win">Tray app with the full control surface: desktop controls, workflows, media, OBS, file sharing and AI assistant setup.</span></li>
+        <li><b>macOS</b><span data-i18n="os.mac">Menu bar app with a layout editor. Adds managed AI automation, a USB link to your tablet and calendar meetings.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 6. Feature map -->
+  <section id="map" class="alt">
+    <div class="wrap">
+      <header class="h-head reveal">
+        <span class="eyebrow" data-i18n="map.eyebrow">Feature map</span>
+        <h2 data-i18n="map.h2">Everything in the box.</h2>
+        <p class="h-sub" data-i18n="map.sub">Ten areas, one app.</p>
+      </header>
+      <div class="fmap reveal">
+        <article><i>⇄</i><h3 data-i18n="m1.t">Connect</h3><ul><li data-i18n="m1.1">QR pairing</li><li data-i18n="m1.2">Wi-Fi, VPN, USB</li><li data-i18n="m1.3">Up to 4 computers</li><li data-i18n="m1.4">Combined profiles</li></ul></article>
+        <article><i>▦</i><h3 data-i18n="m2.t">Deck</h3><ul><li data-i18n="m2.1">Profiles and groups</li><li data-i18n="m2.2">16 tile types</li><li data-i18n="m2.3">Widgets</li><li data-i18n="m2.4">Smart profiles</li></ul></article>
+        <article><i>◐</i><h3 data-i18n="m3.t">Customize</h3><ul><li data-i18n="m3.1">4 themes</li><li data-i18n="m3.2">Icons and colors</li><li data-i18n="m3.3">Starter packs</li><li data-i18n="m3.4">Backup and portable packs</li></ul></article>
+        <article><i>◎</i><h3 data-i18n="m4.t">Controls</h3><ul><li data-i18n="m4.1">Volume, brightness</li><li data-i18n="m4.2">Sliders and dials</li><li data-i18n="m4.3">Color picker</li><li data-i18n="m4.4">Toggles and choices</li></ul></article>
+        <article><i>⟳</i><h3 data-i18n="m5.t">Automate</h3><ul><li data-i18n="m5.1">Workflows</li><li data-i18n="m5.2">Typed variables</li><li data-i18n="m5.3">Queue and schedules</li><li data-i18n="m5.4">Run history</li></ul></article>
+        <article><i>⌥</i><h3 data-i18n="m6.t">Dev tools</h3><ul><li data-i18n="m6.1">Projects and Git</li><li data-i18n="m6.2">Test results</li><li data-i18n="m6.3">Terminals</li><li data-i18n="m6.4">Screenshots, meetings</li></ul></article>
+        <article><i>✦</i><h3 data-i18n="m7.t">AI</h3><ul><li data-i18n="m7.1">AI workspace</li><li data-i18n="m7.2">Approvals</li><li data-i18n="m7.3">19 providers</li><li data-i18n="m7.4">Diagnose failures</li></ul></article>
+        <article><i>▶</i><h3 data-i18n="m8.t">Play and stream</h3><ul><li data-i18n="m8.1">OBS panels</li><li data-i18n="m8.2">Twitch clips</li><li data-i18n="m8.3">Hue lighting</li><li data-i18n="m8.4">Soundboard</li></ul></article>
+        <article><i>⇅</i><h3 data-i18n="m9.t">Share</h3><ul><li data-i18n="m9.1">File transfer</li><li data-i18n="m9.2">Clipboard sync</li><li data-i18n="m9.3">Opt-in per computer</li></ul></article>
+        <article><i>⛨</i><h3 data-i18n="m10.t">Secure</h3><ul><li data-i18n="m10.1">Pinned TLS</li><li data-i18n="m10.2">Trusted devices</li><li data-i18n="m10.3">Permissions</li><li data-i18n="m10.4">Resource limits</li></ul></article>
+        <article class="fm-link"><h3 data-i18n="m11.t">See it all</h3><p data-i18n="m11.p">Every feature, searchable, with what it does and where it runs.</p><a class="link" href="features.html" data-i18n="m11.l">Open the feature explorer →</a></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Business -->
+  <section id="business">
+    <div class="wrap">
+      <header class="h-head reveal">
+        <span class="eyebrow" data-i18n="biz.eyebrow">For teams and business</span>
+        <h2 data-i18n="biz.h2">One tablet, every role.</h2>
+        <p class="h-sub" data-i18n="biz.sub">Give each role its own profile and keep the controls they need one tap away.</p>
+      </header>
+      <div class="biz reveal">
+        <article><span class="tag" data-i18n="b1.tag">Meetings and presentations</span><h3 data-i18n="b1.t">Run the room</h3><p data-i18n="b1.p">Mute, share, switch scenes and advance slides from a tablet on the table, with a Meetings page built in.</p><small data-i18n="b1.s">Shortcut packs · Meetings · Profiles</small></article>
+        <article><span class="tag" data-i18n="b2.tag">Studios and creators</span><h3 data-i18n="b2.t">Edit without hunting for keys</h3><p data-i18n="b2.p">Start from packs for Photoshop, Premiere, DaVinci Resolve and Blender, then add jog dials and tiles of your own.</p><small data-i18n="b2.s">App packs · Dials · Portable packs</small></article>
+        <article><span class="tag" data-i18n="b3.tag">Streaming and events</span><h3 data-i18n="b3.t">Go live with confidence</h3><p data-i18n="b3.p">OBS scenes, Twitch clips, Hue lighting and a soundboard on one screen, with live state on every tile.</p><small data-i18n="b3.s">OBS · Twitch · Hue · Soundboard</small></article>
+        <article><span class="tag" data-i18n="b4.tag">Engineering and IT</span><h3 data-i18n="b4.t">Ship from your desk</h3><p data-i18n="b4.p">Build, test, deploy and review Git status, with AI fixes that wait for your approval.</p><small data-i18n="b4.s">Workflows · Queue · AI approvals</small></article>
+        <article><span class="tag" data-i18n="b5.tag">Multi-computer offices</span><h3 data-i18n="b5.t">Several machines, one surface</h3><p data-i18n="b5.p">Control up to four Macs and PCs from the same tablet, and send files and clipboard text between them.</p><small data-i18n="b5.s">4 computers · File transfer · Clipboard</small></article>
+        <article><span class="tag" data-i18n="b6.tag">Shared desks and support</span><h3 data-i18n="b6.t">Give access, not the keys</h3><p data-i18n="b6.p">Invite a device with a profile scope and view-only queue access. Review trusted devices and revoke any of them.</p><small data-i18n="b6.s">Invitations · Permissions · Revocation</small></article>
+      </div>
+      <p class="biz-note reveal"><b data-i18n="biz.nb">Control and privacy:</b> <span data-i18n="biz.nt">local-first, pinned TLS between tablet and computer, per-device permissions and backups you keep.</span></p>
+    </div>
+  </section>
+
+  <!-- 8. Demo video -->
   <section id="demo" class="alt">
     <div class="wrap">
       <header class="h-head reveal">
-        <span class="eyebrow">Demo</span>
-        <h2>See it in two minutes.</h2>
+        <span class="eyebrow" data-i18n="demo.eyebrow">Demo</span>
+        <h2 data-i18n="demo.h2">See it in action.</h2>
       </header>
       <div class="video reveal" id="video">
         <video preload="none" playsinline controls poster="assets/media/promo-poster.jpg">
           <source src="assets/media/promo.mp4" type="video/mp4">
         </video>
-        <button class="video-play" type="button" aria-label="Play the NitroDeck demo"><span></span></button>
+        <button class="video-play" type="button" aria-label="Play the NitroDeck demo" data-i18n-attr="aria-label=demo.play"><span></span></button>
       </div>
     </div>
   </section>
 
-  <!-- 5. Packs -->
+  <!-- 9. Packs -->
   <section id="packs">
     <div class="wrap">
       <header class="h-head reveal">
-        <span class="eyebrow">Packs</span>
-        <h2>Start with a ready-made deck.</h2>
-        <p class="h-sub">Install a pack in one click. Free and open, with 50 to start.</p>
+        <span class="eyebrow" data-i18n="packs.eyebrow">Packs</span>
+        <h2 data-i18n="packs.h2">Start with a ready-made deck.</h2>
+        <p class="h-sub" data-i18n="packs.sub">50 packs for the apps you already use. Install one in a click.</p>
       </header>
-      <ul class="pack-grid reveal" id="packGrid" aria-label="Example packs"></ul>
+      <ul class="pack-grid reveal" id="packGrid" aria-label="Example packs" data-i18n-attr="aria-label=packs.label"></ul>
       <div class="pack-cta reveal">
-        <a class="btn primary" href="marketplace.html">Browse all packs</a>
-        <a class="btn" href="generator.html">Make your own</a>
+        <a class="btn primary" href="marketplace.html" data-i18n="packs.browse">Browse all packs</a>
+        <a class="btn" href="generator.html" data-i18n="packs.make">Make your own</a>
       </div>
     </div>
   </section>
 
-  <!-- 6. How it works -->
+  <!-- 10. Get started -->
   <section id="start" class="alt">
     <div class="wrap">
       <header class="h-head reveal">
-        <span class="eyebrow">Get started</span>
-        <h2>Three steps. About two minutes.</h2>
+        <span class="eyebrow" data-i18n="start.eyebrow">Get started</span>
+        <h2 data-i18n="start.h2">Three steps. A couple of minutes.</h2>
       </header>
       <ol class="steps reveal">
-        <li><span class="n">1</span><h3>Install</h3><p>Get the tablet app and the companion for your computer.</p></li>
-        <li><span class="n">2</span><h3>Pair</h3><p>Scan the QR code, then approve on your computer.</p></li>
-        <li><span class="n">3</span><h3>Tap</h3><p>Add a pack or your own tiles and go.</p></li>
+        <li><span class="n">1</span><h3 data-i18n="s1.t">Install</h3><p data-i18n="s1.p">Get the tablet app and the companion for your computer.</p></li>
+        <li><span class="n">2</span><h3 data-i18n="s2.t">Pair</h3><p data-i18n="s2.p">Scan the QR code, then approve on your computer.</p></li>
+        <li><span class="n">3</span><h3 data-i18n="s3.t">Tap</h3><p data-i18n="s3.p">Add a pack or your own tiles and go.</p></li>
       </ol>
       <div class="pack-cta reveal">
-        <a class="btn primary" href="https://github.com/Ahmed-M-Hussein/NitroDeck/releases" rel="noopener">Download from releases</a>
-        <a class="btn" href="features.html#start">Setup details</a>
+        <a class="btn primary" href="https://github.com/Ahmed-M-Hussein/NitroDeck/releases" rel="noopener" data-i18n="start.dl">Download from releases</a>
+        <a class="btn" href="features.html#start" data-i18n="start.more">Setup details</a>
       </div>
     </div>
   </section>
 
-  <!-- 7. Trust + FAQ -->
+  <!-- 11. Trust + FAQ -->
   <section id="trust">
     <div class="wrap trust">
       <header class="h-head reveal">
-        <span class="eyebrow">Private by design</span>
-        <h2>You choose what connects.</h2>
+        <span class="eyebrow" data-i18n="trust.eyebrow">Private by design</span>
+        <h2 data-i18n="trust.h2">You decide what connects.</h2>
       </header>
       <ul class="trust-row reveal">
-        <li><b>Pair you approve</b><span>Review and revoke devices.</span></li>
-        <li><b>Opt-in sharing</b><span>Files and clipboard stay off until you enable them.</span></li>
-        <li><b>Local credentials</b><span>Integration keys stay on your computer.</span></li>
+        <li><b data-i18n="tr1.t">You approve pairing</b><span data-i18n="tr1.p">Review and revoke devices any time.</span></li>
+        <li><b data-i18n="tr2.t">Sharing is opt-in</b><span data-i18n="tr2.p">Files and clipboard stay off until you turn them on.</span></li>
+        <li><b data-i18n="tr3.t">Keys stay home</b><span data-i18n="tr3.p">Integration credentials stay on your computer.</span></li>
       </ul>
       <div class="faq reveal">
-        <details><summary>Does it need an account?</summary><p>No NitroDeck account. Connected services and AI tools use their own accounts.</p></details>
-        <details><summary>Which tablets and computers work?</summary><p>iPad and Android tablets, with Mac and Windows companions. Some features, like managed AI assistants and USB, are Mac only.</p></details>
-        <details><summary>Can I share a pack?</summary><p>Yes. Build one in the generator and open a pull request to add it to the marketplace.</p></details>
+        <details><summary data-i18n="q1.q">Do I need an account?</summary><p data-i18n="q1.a">No NitroDeck account. Connected services and AI tools use their own accounts.</p></details>
+        <details><summary data-i18n="q2.q">What works with what?</summary><p data-i18n="q2.a">iPad and Android tablets, with Mac and Windows companions. USB links and calendar meetings are Mac only for now; USB on Windows isn't built yet.</p></details>
+        <details><summary data-i18n="q3.q">Can I share a pack?</summary><p data-i18n="q3.a">Yes. Build one in the generator and open a pull request to add it to the marketplace.</p></details>
       </div>
     </div>
   </section>
 
-  <!-- 8. Closing CTA -->
+  <!-- 12. Closing CTA -->
   <section class="closing">
     <div class="wrap closing-in reveal">
       <img src="assets/appIcon.png" alt="" width="64" height="64">
-      <h2>Less busywork. More momentum.</h2>
-      <a class="btn primary" href="#start">Get started</a>
+      <h2 data-i18n="close.h2">Less busywork. More momentum.</h2>
+      <a class="btn primary" href="#start" data-i18n="cta.start">Get started</a>
     </div>
   </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <span>NitroDeck · Your desk, one tap away.</span>
-    <span><a href="features.html">Features</a> · <a href="marketplace.html">Packs</a> · <a href="generator.html">Generator</a> · <a href="https://github.com/Ahmed-M-Hussein/NitroDeck.io" rel="noopener">GitHub</a></span>
+    <span data-i18n="foot.tag">NitroDeck · Your desk, one tap away.</span>
+    <span><a href="features.html" data-i18n="nav.features">Features</a> · <a href="marketplace.html" data-i18n="nav.packs">Packs</a> · <a href="generator.html" data-i18n="foot.gen">Generator</a> · <a href="https://github.com/Ahmed-M-Hussein/NitroDeck.io" rel="noopener">GitHub</a></span>
   </div>
 </footer>
+<script src="i18n.js"></script>
 <script src="home.js"></script>
+<script src="deckui.js"></script>
 </body>
 </html>

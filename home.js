@@ -44,6 +44,15 @@
     art.addEventListener("pointerleave", () => { tilt.style.transform = ""; });
   }
 
+  // Companion app tabs.
+  const img = $("#compImg");
+  const tabs = document.querySelectorAll(".comp-tabs button");
+  tabs.forEach((b) => b.addEventListener("click", () => {
+    tabs.forEach((x) => x.setAttribute("aria-selected", String(x === b)));
+    img.classList.add("swap");
+    setTimeout(() => { img.src = b.dataset.img; img.alt = window.NDI18N.t(b.dataset.altkey); img.classList.remove("swap"); }, 180);
+  }));
+
   // Video: poster button starts playback.
   const box = $("#video");
   if (box) {
@@ -52,6 +61,12 @@
     v.addEventListener("play", () => box.classList.add("playing"));
     v.addEventListener("ended", () => box.classList.remove("playing"));
   }
+
+  document.addEventListener("ndlang", () => {
+    document.querySelectorAll("#packGrid small[data-n]").forEach((n) => { n.textContent = window.NDI18N.t("packs.tiles", { n: n.dataset.n }); });
+    const sel = document.querySelector(".comp-tabs button[aria-selected=true]");
+    if (sel) img.alt = window.NDI18N.t(sel.dataset.altkey);
+  });
 
   // Packs from the generated catalog. Falls back silently to the static marquee.
   fetch("catalog.json").then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then((c) => {
@@ -68,7 +83,7 @@
       a.className = "pk"; a.href = "marketplace.html?pack=" + encodeURIComponent(p.id);
       a.style.setProperty("--c", /^#[0-9a-f]{6}$/i.test(p.color) && p.color !== "#1F1F1F" ? p.color : "var(--accent)");
       const b = document.createElement("b"); b.textContent = p.name;
-      const s = document.createElement("small"); s.textContent = `${p.items} tiles · ${p.category}`;
+      const s = document.createElement("small"); s.dataset.n = p.items; s.textContent = window.NDI18N.t("packs.tiles", { n: p.items });
       a.append(b, s);
       return a;
     }));

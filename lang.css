@@ -1,0 +1,16 @@
+/* Language switcher and right-to-left support for pages built on styles.css. */
+.lang { display: inline-flex; gap: 2px; padding: 3px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.lang button { font: inherit; font-size: 13px; font-weight: 600; color: var(--muted); background: transparent; border: 0; border-radius: 9px; padding: 6px 9px; cursor: pointer; }
+.lang button:hover { color: var(--text); }
+.lang button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); }
+.nav-links + .lang { margin-inline-start: 8px; }
+.device, .deck, #bg { direction: ltr; }
+[lang="ar"] body { font-family: "Segoe UI", "Noto Sans Arabic", Tahoma, system-ui, sans-serif; }
+[lang="ar"] .eyebrow, [lang="ar"] h1, [lang="ar"] h2, [lang="ar"] h3, [lang="ar"] .device-top, [lang="ar"] .stat span { letter-spacing: 0; text-transform: none; }
+[dir="rtl"] .nav-links { margin-left: 0; margin-right: auto; }
+[dir="rtl"] .progress-bar { left: auto; right: 0; }
+[dir="rtl"] .to-top { right: auto; left: 18px; }
+[dir="rtl"] details summary { text-align: right; }
+@media (max-width: 860px) {
+  .nav-links + .lang { margin-inline-start: auto; }
+}
